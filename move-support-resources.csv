@@ -1,5 +1,6 @@
 Resource,Move Resource Group,Move Subscription
 Microsoft.AAD/domainservices,0,0
+microsoft.aadiam/tenants,0,0
 Microsoft.AnalysisServices/servers,1,1
 Microsoft.ApiManagement/service,1,1
 Microsoft.AppService/apiapps,0,0
@@ -96,6 +97,15 @@ Microsoft.DevTestLab/labs,1,0
 Microsoft.DevTestLab/labs/servicerunners,1,1
 Microsoft.DevTestLab/labs/virtualmachines,1,0
 Microsoft.DevTestLab/schedules,0,0
+microsoft.dns/dnszones,0,0
+microsoft.dns/dnszones/a,0,0
+microsoft.dns/dnszones/aaaa,0,0
+microsoft.dns/dnszones/cname,0,0
+microsoft.dns/dnszones/mx,0,0
+microsoft.dns/dnszones/ptr,0,0
+microsoft.dns/dnszones/srv,0,0
+microsoft.dns/dnszones/txt,0,0
+microsoft.dns/trafficmanagerprofiles,0,0
 Microsoft.DocumentDB/databaseaccounts,1,1
 Microsoft.DomainRegistration/domains,1,1
 Microsoft.EventGrid/domains,1,1
@@ -107,6 +117,19 @@ Microsoft.HanaOnAzure/hanainstances,1,1
 Microsoft.HDInsight/clusters,1,1
 Microsoft.HybridData/datamanagers,1,1
 Microsoft.ImportExport/jobs,1,1
+microsoft.insights/accounts,0,0
+microsoft.insights/actiongroups,1,1
+microsoft.insights/activitylogalerts,0,0
+microsoft.insights/alertrules,1,1
+microsoft.insights/autoscalesettings,1,1
+microsoft.insights/components,1,1
+microsoft.insights/guestdiagnosticsettings,0,0
+microsoft.insights/metricalerts,0,0
+microsoft.insights/notificationgroups,0,0
+microsoft.insights/notificationrules,0,0
+microsoft.insights/scheduledqueryrules,0,0
+microsoft.insights/webtests,1,1
+microsoft.insights/workbooks,1,1
 Microsoft.IoTCentral/iotapps,1,1
 Microsoft.IoTSpaces/checknameavailability,1,1
 Microsoft.IoTSpaces/graph,1,1
@@ -231,6 +254,7 @@ Microsoft.Solutions/appliancedefinitions,0,0
 Microsoft.Solutions/appliances,0,0
 Microsoft.Solutions/applicationdefinitions,0,0
 Microsoft.Solutions/applications,0,0
+Microsoft.Solutions/jitrequests,0,0
 Microsoft.Sql/managedinstances,1,1
 Microsoft.Sql/managedinstances/databases,1,1
 Microsoft.Sql/servers,1,1
@@ -259,6 +283,9 @@ Microsoft.TimeSeriesInsights/environments,1,1
 Microsoft.TimeSeriesInsights/environments/eventsources,1,1
 Microsoft.TimeSeriesInsights/environments/referencedatasets,1,1
 Microsoft.VirtualMachineImages/imagetemplates,0,0
+microsoft.visualstudio/account,1,1
+microsoft.visualstudio/account/extension,1,1
+microsoft.visualstudio/account/project,1,1
 Microsoft.Web/certificates,0,1
 Microsoft.Web/connectiongateways,1,1
 Microsoft.Web/connections,1,1

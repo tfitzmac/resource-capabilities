@@ -650,6 +650,7 @@ Microsoft.SQL,servers/administrators,FALSE
 Microsoft.SQL,servers/communicationLinks,FALSE
 Microsoft.SQL,servers/databases,TRUE
 Microsoft.SQL,servers/encryptionProtector,FALSE
+Microsoft.SQL,servers/firewallRules,FALSE
 Microsoft.SQL,servers/keys,FALSE
 Microsoft.SQL,servers/restorableDroppedDatabases,FALSE
 Microsoft.SQL,servers/serviceobjectives,FALSE

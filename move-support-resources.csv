@@ -314,7 +314,7 @@ Microsoft.Web/serverfarms,1,1
 Microsoft.Web/sites,1,1
 Microsoft.Web/sites/premieraddons,1,1
 Microsoft.Web/sites/slots,1,1
-Microsoft.WindowsIoT/deviceservices,1,1
+Microsoft.WindowsIoT/deviceservices,0,0
 Microsoft.WindowsVirtualDesktop/applicationgroups,0,0
 Microsoft.WindowsVirtualDesktop/hostpools,0,0
 Microsoft.WindowsVirtualDesktop/workspaces,0,0

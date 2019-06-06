@@ -137,7 +137,7 @@ microsoft.insights/guestdiagnosticsettings,0,0
 microsoft.insights/metricalerts,0,0
 microsoft.insights/notificationgroups,0,0
 microsoft.insights/notificationrules,0,0
-microsoft.insights/scheduledqueryrules,0,0
+microsoft.insights/scheduledqueryrules,1,1
 microsoft.insights/webtests,1,1
 microsoft.insights/workbooks,1,1
 Microsoft.IoTCentral/iotapps,1,1

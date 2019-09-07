@@ -1,5 +1,6 @@
 Resource,Move Resource Group,Move Subscription
 Microsoft.AAD/domainservices,0,0
+Microsoft.AAD/domainservices/replicasets,0,0
 microsoft.aadiam/tenants,0,0
 Microsoft.AlertsManagement/actionrules,1,1
 Microsoft.AnalysisServices/servers,1,1
@@ -13,6 +14,7 @@ Microsoft.Automation/automationaccounts,1,1
 Microsoft.Automation/automationaccounts/configurations,1,1
 Microsoft.Automation/automationaccounts/runbooks,1,1
 Microsoft.AzureActiveDirectory/b2cdirectories,1,1
+Microsoft.AzureData/sqlserverregistrations,0,0
 Microsoft.AzureStack/registrations,1,1
 Microsoft.Backup/backupvault,0,0
 Microsoft.Batch/batchaccounts,1,1
@@ -23,9 +25,11 @@ Microsoft.BatchAI/workspaces,0,0
 Microsoft.BingMaps/mapapis,0,0
 Microsoft.BizTalkServices/biztalk,1,1
 Microsoft.Blockchain/blockchainmembers,1,1
+Microsoft.Blockchain/watchers,0,0
 Microsoft.Blueprint/blueprintassignments,0,0
 Microsoft.BotService/botservices,1,1
 Microsoft.Cache/redis,1,1
+Microsoft.Cdn/cdnwebapplicationfirewallpolicies,0,0
 Microsoft.Cdn/profiles,1,1
 Microsoft.Cdn/profiles/endpoints,1,1
 Microsoft.CertificateRegistration/certificateorders,1,1
@@ -37,6 +41,7 @@ Microsoft.ClassicNetwork/virtualnetworks,0,0
 Microsoft.ClassicStorage/storageaccounts,1,0
 Microsoft.CognitiveServices/accounts,1,1
 Microsoft.Compute/availabilitysets,1,1
+Microsoft.Compute/diskencryptionsets,0,0
 Microsoft.Compute/disks,1,1
 Microsoft.Compute/galleries,0,0
 Microsoft.Compute/galleries/images,0,0
@@ -97,7 +102,7 @@ Microsoft.Devices/elasticpools,0,0
 Microsoft.Devices/elasticpools/iothubtenants,0,0
 Microsoft.Devices/iothubs,1,1
 Microsoft.Devices/provisioningservices,1,1
-Microsoft.DevSpaces/controllers,0,0
+Microsoft.DevSpaces/controllers,1,1
 Microsoft.DevTestLab/labcenters,0,0
 Microsoft.DevTestLab/labs,1,0
 Microsoft.DevTestLab/labs/environments,1,1
@@ -121,7 +126,8 @@ Microsoft.EventGrid/topics,1,1
 Microsoft.EventHub/clusters,1,1
 Microsoft.EventHub/namespaces,1,1
 Microsoft.Genomics/accounts,0,0
-Microsoft.HanaOnAzure/hanainstances,1,1
+Microsoft.HanaOnAzure/hanainstances,0,0
+Microsoft.HanaOnAzure/sapmonitors,1,1
 Microsoft.HDInsight/clusters,1,1
 Microsoft.HealthcareApis/services,1,1
 Microsoft.HybridCompute/machines,0,0
@@ -146,8 +152,8 @@ Microsoft.IoTSpaces/graph,1,1
 Microsoft.KeyVault/hsmpools,0,0
 Microsoft.KeyVault/vaults,1,1
 Microsoft.Kusto/clusters,1,1
-Microsoft.LabServices/labaccounts,1,1
-Microsoft.LocationBasedServices/accounts,1,1
+Microsoft.LabServices/labaccounts,0,0
+Microsoft.LocationBasedServices/accounts,0,0
 Microsoft.LocationServices/accounts,0,0
 Microsoft.Logic/hostingenvironments,0,0
 Microsoft.Logic/integrationaccounts,1,1
@@ -164,7 +170,7 @@ Microsoft.MachineLearningExperimentation/accounts/workspaces/projects,0,0
 Microsoft.MachineLearningExperimentation/teamaccounts,0,0
 Microsoft.MachineLearningExperimentation/teamaccounts/workspaces,0,0
 Microsoft.MachineLearningExperimentation/teamaccounts/workspaces/projects,0,0
-Microsoft.MachineLearningModelManagement/accounts,1,1
+Microsoft.MachineLearningModelManagement/accounts,0,0
 Microsoft.MachineLearningOperationalization/hostingaccounts,0,0
 Microsoft.MachineLearningServices/workspaces,0,0
 Microsoft.ManagedIdentity/userassignedidentities,0,0
@@ -173,6 +179,7 @@ Microsoft.MarketplaceApps/classicdevservices,0,0
 Microsoft.Media/mediaservices,1,1
 Microsoft.Media/mediaservices/liveevents,1,1
 Microsoft.Media/mediaservices/streamingendpoints,1,1
+Microsoft.Microservices4Spring/appclusters,0,0
 Microsoft.Migrate/assessmentprojects,0,0
 Microsoft.Migrate/migrateprojects,0,0
 Microsoft.Migrate/projects,0,0
@@ -194,8 +201,8 @@ Microsoft.Network/expressroutecircuits,0,0
 Microsoft.Network/expressroutecrossconnections,0,0
 Microsoft.Network/expressroutegateways,0,0
 Microsoft.Network/expressrouteports,0,0
-Microsoft.Network/frontdoors,1,1
-Microsoft.Network/frontdoorwebapplicationfirewallpolicies,1,1
+Microsoft.Network/frontdoors,0,0
+Microsoft.Network/frontdoorwebapplicationfirewallpolicies,0,0
 Microsoft.Network/loadbalancers,1,1
 Microsoft.Network/localnetworkgateways,1,1
 Microsoft.Network/natgateways,1,1
@@ -241,16 +248,19 @@ Microsoft.PowerBIDedicated/capacities,1,1
 Microsoft.ProjectOxford/accounts,0,0
 Microsoft.RecoveryServices/vaults,1,1
 Microsoft.Relay/namespaces,1,1
+Microsoft.ResourceGraph/queries,1,1
 Microsoft.SaaS/applications,1,0
 Microsoft.Scheduler/flows,1,1
 Microsoft.Scheduler/jobcollections,1,1
 Microsoft.Search/searchservices,1,1
 Microsoft.Security/iotsecuritysolutions,1,1
+Microsoft.Security/playbookconfigurations,0,0
 Microsoft.ServerManagement/gateways,0,0
 Microsoft.ServerManagement/nodes,0,0
 Microsoft.ServiceBus/namespaces,1,1
 Microsoft.ServiceFabric/applications,0,0
 Microsoft.ServiceFabric/clusters,1,1
+Microsoft.ServiceFabric/clusters/applications,0,0
 Microsoft.ServiceFabric/containergroups,0,0
 Microsoft.ServiceFabric/containergroupsets,0,0
 Microsoft.ServiceFabric/edgeclusters,0,0
@@ -270,9 +280,9 @@ Microsoft.Solutions/appliances,0,0
 Microsoft.Solutions/applicationdefinitions,0,0
 Microsoft.Solutions/applications,0,0
 Microsoft.Solutions/jitrequests,0,0
-Microsoft.Sql/instancepools,1,1
-Microsoft.Sql/managedinstances,1,1
-Microsoft.Sql/managedinstances/databases,1,1
+Microsoft.Sql/instancepools,0,0
+Microsoft.Sql/managedinstances,0,0
+Microsoft.Sql/managedinstances/databases,0,0
 Microsoft.Sql/servers,1,1
 Microsoft.Sql/servers/databases,1,1
 Microsoft.Sql/servers/elasticpools,1,1

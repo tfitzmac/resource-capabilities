@@ -109,15 +109,6 @@ Microsoft.DevTestLab/labs/environments,1,1
 Microsoft.DevTestLab/labs/servicerunners,1,1
 Microsoft.DevTestLab/labs/virtualmachines,1,0
 Microsoft.DevTestLab/schedules,1,1
-microsoft.dns/dnszones,0,0
-microsoft.dns/dnszones/a,0,0
-microsoft.dns/dnszones/aaaa,0,0
-microsoft.dns/dnszones/cname,0,0
-microsoft.dns/dnszones/mx,0,0
-microsoft.dns/dnszones/ptr,0,0
-microsoft.dns/dnszones/srv,0,0
-microsoft.dns/dnszones/txt,0,0
-microsoft.dns/trafficmanagerprofiles,0,0
 Microsoft.DocumentDB/databaseaccounts,1,1
 Microsoft.DomainRegistration/domains,1,1
 Microsoft.EnterpriseKnowledgeGraph/services,1,1

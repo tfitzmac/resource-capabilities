@@ -16,7 +16,6 @@ Microsoft.Automation/automationaccounts/runbooks,1,1
 Microsoft.AzureActiveDirectory/b2cdirectories,1,1
 Microsoft.AzureData/sqlserverregistrations,0,0
 Microsoft.AzureStack/registrations,1,1
-Microsoft.Backup/backupvault,0,0
 Microsoft.Batch/batchaccounts,1,1
 Microsoft.BatchAI/clusters,0,0
 Microsoft.BatchAI/fileservers,0,0
@@ -71,6 +70,7 @@ Microsoft.ContentModerator/applications,1,1
 Microsoft.CortanaAnalytics/accounts,0,0
 Microsoft.CostManagement/connectors,1,1
 Microsoft.CustomerInsights/hubs,1,1
+Microsoft.CustomProviders/resourceproviders,1,1
 Microsoft.DataBox/jobs,0,0
 Microsoft.DataBoxEdge/databoxedgedevices,0,0
 Microsoft.Databricks/workspaces,0,0
@@ -87,6 +87,7 @@ Microsoft.DataLakeStore/accounts,1,1
 Microsoft.DataMigration/services,0,0
 Microsoft.DataMigration/services/projects,0,0
 Microsoft.DataMigration/slots,0,0
+Microsoft.DataShare/accounts,0,0
 Microsoft.DBforMariaDB/servers,1,1
 Microsoft.DBforMySQL/servers,1,1
 Microsoft.DBforPostgreSQL/servergroups,0,0
@@ -265,7 +266,6 @@ Microsoft.ServiceFabricMesh/networks,1,1
 Microsoft.ServiceFabricMesh/secrets,1,1
 Microsoft.ServiceFabricMesh/volumes,1,1
 Microsoft.SignalRService/signalr,1,1
-Microsoft.SiteRecovery/siterecoveryvault,0,0
 Microsoft.Solutions/appliancedefinitions,0,0
 Microsoft.Solutions/appliances,0,0
 Microsoft.Solutions/applicationdefinitions,0,0
@@ -303,9 +303,9 @@ Microsoft.VirtualMachineImages/imagetemplates,0,0
 microsoft.visualstudio/account,1,1
 microsoft.visualstudio/account/extension,1,1
 microsoft.visualstudio/account/project,1,1
-Microsoft.VMwareCloudSimple/dedicatedcloudnodes,1,1
-Microsoft.VMwareCloudSimple/dedicatedcloudservices,1,1
-Microsoft.VMwareCloudSimple/virtualmachines,1,1
+Microsoft.VMwareCloudSimple/dedicatedcloudnodes,0,0
+Microsoft.VMwareCloudSimple/dedicatedcloudservices,0,0
+Microsoft.VMwareCloudSimple/virtualmachines,0,0
 Microsoft.Web/certificates,0,1
 Microsoft.Web/connectiongateways,1,1
 Microsoft.Web/connections,1,1

@@ -1,0 +1,321 @@
+providerName,resourceType,regionMove
+Microsoft.AAD,domainservices,FALSE
+Microsoft.AAD,domainservices / replicasets,FALSE
+microsoft.aadiam,tenants,FALSE
+Microsoft.AlertsManagement,actionrules,FALSE
+Microsoft.AnalysisServices,servers,FALSE
+Microsoft.ApiManagement,service,TRUE
+Microsoft.AppConfiguration,configurationstores,FALSE
+Microsoft.AppService,apiapps,FALSE
+Microsoft.AppService,appidentities,FALSE
+Microsoft.AppService,gateways,FALSE
+Microsoft.Authorization,policyassignments,FALSE
+Microsoft.Automation,automationaccounts,FALSE
+Microsoft.Automation,automationaccounts / configurations,FALSE
+Microsoft.Automation,automationaccounts / runbooks,FALSE
+Microsoft.AzureActiveDirectory,b2cdirectories,FALSE
+Microsoft.AzureData,sqlserverregistrations,FALSE
+Microsoft.AzureStack,registrations,FALSE
+Microsoft.Batch,batchaccounts,FALSE
+Microsoft.BatchAI,clusters,FALSE
+Microsoft.BatchAI,fileservers,FALSE
+Microsoft.BatchAI,jobs,FALSE
+Microsoft.BatchAI,workspaces,FALSE
+Microsoft.BingMaps,mapapis,FALSE
+Microsoft.BizTalkServices,biztalk,FALSE
+Microsoft.Blockchain,blockchainmembers,FALSE
+Microsoft.Blockchain,watchers,FALSE
+Microsoft.Blueprint,blueprintassignments,FALSE
+Microsoft.BotService,botservices,FALSE
+Microsoft.Cache,redis,FALSE
+Microsoft.Cdn,cdnwebapplicationfirewallpolicies,FALSE
+Microsoft.Cdn,profiles,FALSE
+Microsoft.Cdn,profiles / endpoints,FALSE
+Microsoft.CertificateRegistration,certificateorders,FALSE
+Microsoft.ClassicCompute,domainnames,FALSE
+Microsoft.ClassicCompute,virtualmachines,FALSE
+Microsoft.ClassicNetwork,networksecuritygroups,FALSE
+Microsoft.ClassicNetwork,reservedips,FALSE
+Microsoft.ClassicNetwork,virtualnetworks,FALSE
+Microsoft.ClassicStorage,storageaccounts,TRUE
+Microsoft.CognitiveServices,accounts,FALSE
+Microsoft.Compute,availabilitysets,FALSE
+Microsoft.Compute,diskencryptionsets,FALSE
+Microsoft.Compute,disks,FALSE
+Microsoft.Compute,galleries,FALSE
+Microsoft.Compute,galleries / images,FALSE
+Microsoft.Compute,galleries / images / versions,FALSE
+Microsoft.Compute,hostgroups,FALSE
+Microsoft.Compute,hostgroups / hosts,FALSE
+Microsoft.Compute,images,FALSE
+Microsoft.Compute,proximityplacementgroups,FALSE
+Microsoft.Compute,restorepointcollections,FALSE
+Microsoft.Compute,sharedvmimages,FALSE
+Microsoft.Compute,sharedvmimages / versions,FALSE
+Microsoft.Compute,snapshots,FALSE
+Microsoft.Compute,virtualmachines,TRUE
+Microsoft.Compute,virtualmachines / extensions,FALSE
+Microsoft.Compute,virtualmachinescalesets,FALSE
+Microsoft.Container,containergroups,FALSE
+Microsoft.ContainerInstance,containergroups,FALSE
+Microsoft.ContainerRegistry,registries,FALSE
+Microsoft.ContainerRegistry,registries / buildtasks,FALSE
+Microsoft.ContainerRegistry,registries / replications,FALSE
+Microsoft.ContainerRegistry,registries / tasks,FALSE
+Microsoft.ContainerRegistry,registries / webhooks,FALSE
+Microsoft.ContainerService,containerservices,FALSE
+Microsoft.ContainerService,managedclusters,FALSE
+Microsoft.ContainerService,openshiftmanagedclusters,FALSE
+Microsoft.ContentModerator,applications,FALSE
+Microsoft.CortanaAnalytics,accounts,FALSE
+Microsoft.CostManagement,connectors,FALSE
+Microsoft.CustomerInsights,hubs,FALSE
+Microsoft.CustomProviders,resourceproviders,FALSE
+Microsoft.DataBox,jobs,FALSE
+Microsoft.DataBoxEdge,databoxedgedevices,FALSE
+Microsoft.Databricks,workspaces,FALSE
+Microsoft.DataCatalog,catalogs,FALSE
+Microsoft.DataCatalog,datacatalogs,FALSE
+Microsoft.DataConnect,connectionmanagers,FALSE
+Microsoft.DataExchange,packages,FALSE
+Microsoft.DataExchange,plans,FALSE
+Microsoft.DataFactory,datafactories,FALSE
+Microsoft.DataFactory,factories,FALSE
+Microsoft.DataLake,datalakeaccounts,FALSE
+Microsoft.DataLakeAnalytics,accounts,FALSE
+Microsoft.DataLakeStore,accounts,FALSE
+Microsoft.DataMigration,services,FALSE
+Microsoft.DataMigration,services / projects,FALSE
+Microsoft.DataMigration,slots,FALSE
+Microsoft.DataShare,accounts,FALSE
+Microsoft.DBforMariaDB,servers,FALSE
+Microsoft.DBforMySQL,servers,FALSE
+Microsoft.DBforPostgreSQL,servergroups,FALSE
+Microsoft.DBforPostgreSQL,servers,FALSE
+Microsoft.DBforPostgreSQL,serversv2,FALSE
+Microsoft.DeploymentManager,artifactsources,FALSE
+Microsoft.DeploymentManager,rollouts,FALSE
+Microsoft.DeploymentManager,servicetopologies,FALSE
+Microsoft.DeploymentManager,servicetopologies / services,FALSE
+Microsoft.DeploymentManager,servicetopologies / services / serviceunits,FALSE
+Microsoft.DeploymentManager,steps,FALSE
+Microsoft.Devices,elasticpools,FALSE
+Microsoft.Devices,elasticpools / iothubtenants,FALSE
+Microsoft.Devices,iothubs,TRUE
+Microsoft.Devices,provisioningservices,FALSE
+Microsoft.DevSpaces,controllers,FALSE
+Microsoft.DevTestLab,labcenters,FALSE
+Microsoft.DevTestLab,labs,FALSE
+Microsoft.DevTestLab,labs / environments,FALSE
+Microsoft.DevTestLab,labs / servicerunners,FALSE
+Microsoft.DevTestLab,labs / virtualmachines,FALSE
+Microsoft.DevTestLab,schedules,FALSE
+Microsoft.DocumentDB,databaseaccounts,FALSE
+Microsoft.DomainRegistration,domains,FALSE
+Microsoft.EnterpriseKnowledgeGraph,services,FALSE
+Microsoft.EventGrid,domains,FALSE
+Microsoft.EventGrid,topics,FALSE
+Microsoft.EventHub,clusters,FALSE
+Microsoft.EventHub,namespaces,FALSE
+Microsoft.Genomics,accounts,FALSE
+Microsoft.HanaOnAzure,hanainstances,FALSE
+Microsoft.HanaOnAzure,sapmonitors,FALSE
+Microsoft.HDInsight,clusters,FALSE
+Microsoft.HealthcareApis,services,FALSE
+Microsoft.HybridCompute,machines,FALSE
+Microsoft.HybridData,datamanagers,FALSE
+Microsoft.ImportExport,jobs,FALSE
+microsoft.insights,accounts,FALSE
+microsoft.insights,actiongroups,FALSE
+microsoft.insights,activitylogalerts,FALSE
+microsoft.insights,alertrules,FALSE
+microsoft.insights,autoscalesettings,FALSE
+microsoft.insights,components,FALSE
+microsoft.insights,guestdiagnosticsettings,FALSE
+microsoft.insights,metricalerts,FALSE
+microsoft.insights,notificationgroups,FALSE
+microsoft.insights,notificationrules,FALSE
+microsoft.insights,scheduledqueryrules,FALSE
+microsoft.insights,webtests,FALSE
+microsoft.insights,workbooks,FALSE
+Microsoft.IoTCentral,iotapps,FALSE
+Microsoft.IoTSpaces,checknameavailability,FALSE
+Microsoft.IoTSpaces,graph,FALSE
+Microsoft.KeyVault,hsmpools,FALSE
+Microsoft.KeyVault,vaults,FALSE
+Microsoft.Kusto,clusters,FALSE
+Microsoft.LabServices,labaccounts,FALSE
+Microsoft.LocationBasedServices,accounts,FALSE
+Microsoft.LocationServices,accounts,FALSE
+Microsoft.Logic,hostingenvironments,FALSE
+Microsoft.Logic,integrationaccounts,FALSE
+Microsoft.Logic,integrationserviceenvironments,FALSE
+Microsoft.Logic,isolatedenvironments,FALSE
+Microsoft.Logic,workflows,FALSE
+Microsoft.MachineLearning,commitmentplans,FALSE
+Microsoft.MachineLearning,webservices,FALSE
+Microsoft.MachineLearning,workspaces,FALSE
+Microsoft.MachineLearningCompute,operationalizationclusters,FALSE
+Microsoft.MachineLearningExperimentation,accounts,FALSE
+Microsoft.MachineLearningExperimentation,accounts / workspaces,FALSE
+Microsoft.MachineLearningExperimentation,accounts / workspaces / projects,FALSE
+Microsoft.MachineLearningExperimentation,teamaccounts,FALSE
+Microsoft.MachineLearningExperimentation,teamaccounts / workspaces,FALSE
+Microsoft.MachineLearningExperimentation,teamaccounts / workspaces / projects,FALSE
+Microsoft.MachineLearningModelManagement,accounts,FALSE
+Microsoft.MachineLearningOperationalization,hostingaccounts,FALSE
+Microsoft.MachineLearningServices,workspaces,FALSE
+Microsoft.ManagedIdentity,userassignedidentities,FALSE
+Microsoft.Maps,accounts,FALSE
+Microsoft.MarketplaceApps,classicdevservices,FALSE
+Microsoft.Media,mediaservices,FALSE
+Microsoft.Media,mediaservices / liveevents,FALSE
+Microsoft.Media,mediaservices / streamingendpoints,FALSE
+Microsoft.Microservices4Spring,appclusters,FALSE
+Microsoft.Migrate,assessmentprojects,FALSE
+Microsoft.Migrate,migrateprojects,FALSE
+Microsoft.Migrate,projects,FALSE
+Microsoft.NetApp,netappaccounts,FALSE
+Microsoft.NetApp,netappaccounts / capacitypools,FALSE
+Microsoft.NetApp,netappaccounts / capacitypools / volumes,FALSE
+Microsoft.NetApp,netappaccounts / capacitypools / volumes / mounttargets,FALSE
+Microsoft.NetApp,netappaccounts / capacitypools / volumes / snapshots,FALSE
+Microsoft.Network,applicationgateways,FALSE
+Microsoft.Network,applicationgatewaywebapplicationfirewallpolicies,FALSE
+Microsoft.Network,applicationsecuritygroups,FALSE
+Microsoft.Network,azurefirewalls,FALSE
+Microsoft.Network,bastionhosts,FALSE
+Microsoft.Network,connections,FALSE
+Microsoft.Network,ddoscustompolicies,FALSE
+Microsoft.Network,ddosprotectionplans,FALSE
+Microsoft.Network,dnszones,FALSE
+Microsoft.Network,expressroutecircuits,FALSE
+Microsoft.Network,expressroutecrossconnections,FALSE
+Microsoft.Network,expressroutegateways,FALSE
+Microsoft.Network,expressrouteports,FALSE
+Microsoft.Network,frontdoors,FALSE
+Microsoft.Network,frontdoorwebapplicationfirewallpolicies,FALSE
+Microsoft.Network,loadbalancers - Basic SKU,TRUE
+Microsoft.Network,loadbalancers - Standard SKU,FALSE
+Microsoft.Network,localnetworkgateways,FALSE
+Microsoft.Network,natgateways,FALSE
+Microsoft.Network,networkintentpolicies,FALSE
+Microsoft.Network,networkinterfaces,TRUE
+Microsoft.Network,networkprofiles,FALSE
+Microsoft.Network,networksecuritygroups,TRUE
+Microsoft.Network,networkwatchers,FALSE
+Microsoft.Network,networkwatchers / connectionmonitors,FALSE
+Microsoft.Network,networkwatchers / lenses,FALSE
+Microsoft.Network,networkwatchers / pingmeshes,FALSE
+Microsoft.Network,p2svpngateways,FALSE
+Microsoft.Network,privatednszones,FALSE
+Microsoft.Network,privatednszones / virtualnetworklinks,FALSE
+Microsoft.Network,privateendpoints,FALSE
+Microsoft.Network,privatelinkservices,FALSE
+Microsoft.Network,publicipaddresses - Basic SKU,TRUE
+Microsoft.Network,publicipaddresses - Standard SKU,FALSE
+Microsoft.Network,publicipprefixes,FALSE
+Microsoft.Network,routefilters,FALSE
+Microsoft.Network,routetables,FALSE
+Microsoft.Network,serviceendpointpolicies,FALSE
+Microsoft.Network,trafficmanagerprofiles,FALSE
+Microsoft.Network,virtualhubs,FALSE
+Microsoft.Network,virtualnetworkgateways,FALSE
+Microsoft.Network,virtualnetworks,FALSE
+Microsoft.Network,virtualnetworktaps,FALSE
+Microsoft.Network,virtualwans,FALSE
+Microsoft.Network,vpngateways (Virtual WAN),FALSE
+Microsoft.Network,vpnsites (Virtual WAN),FALSE
+Microsoft.Network,webapplicationfirewallpolicies,FALSE
+Microsoft.NotificationHubs,namespaces,FALSE
+Microsoft.NotificationHubs,namespaces / notificationhubs,FALSE
+Microsoft.OperationalInsights,workspaces,FALSE
+Microsoft.OperationsManagement,managementconfigurations,FALSE
+Microsoft.OperationsManagement,views,FALSE
+Microsoft.Peering,peerings,FALSE
+Microsoft.Portal,dashboards,FALSE
+Microsoft.PortalSdk,rootresources,FALSE
+Microsoft.PowerBI,workspacecollections,FALSE
+Microsoft.PowerBIDedicated,capacities,FALSE
+Microsoft.ProjectOxford,accounts,FALSE
+Microsoft.RecoveryServices,vaults,FALSE
+Microsoft.Relay,namespaces,FALSE
+Microsoft.ResourceGraph,queries,FALSE
+Microsoft.SaaS,applications,FALSE
+Microsoft.Scheduler,flows,FALSE
+Microsoft.Scheduler,jobcollections,FALSE
+Microsoft.Search,searchservices,FALSE
+Microsoft.Security,iotsecuritysolutions,FALSE
+Microsoft.Security,playbookconfigurations,FALSE
+Microsoft.ServerManagement,gateways,FALSE
+Microsoft.ServerManagement,nodes,FALSE
+Microsoft.ServiceBus,namespaces,FALSE
+Microsoft.ServiceFabric,applications,FALSE
+Microsoft.ServiceFabric,clusters,FALSE
+Microsoft.ServiceFabric,clusters / applications,FALSE
+Microsoft.ServiceFabric,containergroups,FALSE
+Microsoft.ServiceFabric,containergroupsets,FALSE
+Microsoft.ServiceFabric,edgeclusters,FALSE
+Microsoft.ServiceFabric,networks,FALSE
+Microsoft.ServiceFabric,secretstores,FALSE
+Microsoft.ServiceFabric,volumes,FALSE
+Microsoft.ServiceFabricMesh,applications,FALSE
+Microsoft.ServiceFabricMesh,containergroups,FALSE
+Microsoft.ServiceFabricMesh,gateways,FALSE
+Microsoft.ServiceFabricMesh,networks,FALSE
+Microsoft.ServiceFabricMesh,secrets,FALSE
+Microsoft.ServiceFabricMesh,volumes,FALSE
+Microsoft.SignalRService,signalr,FALSE
+Microsoft.Solutions,appliancedefinitions,FALSE
+Microsoft.Solutions,appliances,FALSE
+Microsoft.Solutions,applicationdefinitions,FALSE
+Microsoft.Solutions,applications,FALSE
+Microsoft.Solutions,jitrequests,FALSE
+Microsoft.Sql,instancepools,FALSE
+Microsoft.Sql,managedinstances,TRUE
+Microsoft.Sql,managedinstances / databases,TRUE
+Microsoft.Sql,servers,TRUE
+Microsoft.Sql,servers / databases,TRUE
+Microsoft.Sql,servers / elasticpools,TRUE
+Microsoft.Sql,virtualclusters,TRUE
+Microsoft.SqlVirtualMachine,sqlvirtualmachinegroups,FALSE
+Microsoft.SqlVirtualMachine,sqlvirtualmachines,FALSE
+Microsoft.SqlVM,dwvm,FALSE
+Microsoft.Storage,storageaccounts,TRUE
+Microsoft.StorageCache,caches,FALSE
+Microsoft.StorageSync,storagesyncservices,FALSE
+Microsoft.StorageSyncDev,storagesyncservices,FALSE
+Microsoft.StorageSyncInt,storagesyncservices,FALSE
+Microsoft.StorSimple,managers,FALSE
+Microsoft.StreamAnalytics,streamingjobs,FALSE
+Microsoft.StreamAnalyticsExplorer,environments,FALSE
+Microsoft.StreamAnalyticsExplorer,environments / eventsources,FALSE
+Microsoft.StreamAnalyticsExplorer,instances,FALSE
+Microsoft.StreamAnalyticsExplorer,instances / environments,FALSE
+Microsoft.StreamAnalyticsExplorer,instances / environments / eventsources,FALSE
+Microsoft.TerraformOSS,providerregistrations,FALSE
+Microsoft.TerraformOSS,resources,FALSE
+Microsoft.TimeSeriesInsights,environments,FALSE
+Microsoft.TimeSeriesInsights,environments / eventsources,FALSE
+Microsoft.TimeSeriesInsights,environments / referencedatasets,FALSE
+Microsoft.Token,stores,FALSE
+Microsoft.VirtualMachineImages,imagetemplates,FALSE
+microsoft.visualstudio,account,FALSE
+microsoft.visualstudio,account / extension,FALSE
+microsoft.visualstudio,account / project,FALSE
+Microsoft.VMwareCloudSimple,dedicatedcloudnodes,FALSE
+Microsoft.VMwareCloudSimple,dedicatedcloudservices,FALSE
+Microsoft.VMwareCloudSimple,virtualmachines,FALSE
+Microsoft.Web,certificates,FALSE
+Microsoft.Web,connectiongateways,FALSE
+Microsoft.Web,connections,FALSE
+Microsoft.Web,customapis,FALSE
+Microsoft.Web,hostingenvironments,FALSE
+Microsoft.Web,serverfarms,FALSE
+Microsoft.Web,sites,FALSE
+Microsoft.Web,sites / premieraddons,FALSE
+Microsoft.Web,sites / slots,FALSE
+Microsoft.WindowsIoT,deviceservices,FALSE
+Microsoft.WindowsVirtualDesktop,applicationgroups,FALSE
+Microsoft.WindowsVirtualDesktop,hostpools,FALSE
+Microsoft.WindowsVirtualDesktop,workspaces,FALSE

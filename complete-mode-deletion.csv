@@ -86,6 +86,7 @@ Microsoft.Billing,billingAccounts / billingProfiles / customers,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / instructions,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / invoices,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / invoices / pricesheet,FALSE
+Microsoft.Billing,billingAccounts / billingProfiles / invoices / transactions,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / invoiceSections,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / invoiceSections / billingPermissions,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / invoiceSections / billingRoleAssignments,FALSE
@@ -173,7 +174,6 @@ Microsoft.BotService,botServices / connections,FALSE
 Microsoft.BotService,languages,FALSE
 Microsoft.BotService,templates,FALSE
 Microsoft.Cache,Redis,TRUE
-Microsoft.Cache,RedisConfigDefinition,FALSE
 Microsoft.Capacity,appliedReservations,FALSE
 Microsoft.Capacity,autoQuotaIncrease,FALSE
 Microsoft.Capacity,calculateExchange,FALSE
@@ -318,6 +318,9 @@ Microsoft.ContainerRegistry,registries / generateCredentials,FALSE
 Microsoft.ContainerRegistry,registries / getBuildSourceUploadUrl,FALSE
 Microsoft.ContainerRegistry,registries / GetCredentials,FALSE
 Microsoft.ContainerRegistry,registries / importImage,FALSE
+Microsoft.ContainerRegistry,registries / privateEndpointConnectionProxies,FALSE
+Microsoft.ContainerRegistry,registries / privateEndpointConnectionProxies / validate,FALSE
+Microsoft.ContainerRegistry,registries / privateLinkResources,FALSE
 Microsoft.ContainerRegistry,registries / queueBuild,FALSE
 Microsoft.ContainerRegistry,registries / regenerateCredential,FALSE
 Microsoft.ContainerRegistry,registries / regenerateCredentials,FALSE
@@ -631,6 +634,7 @@ Microsoft.NetApp,netAppAccounts / capacityPools,TRUE
 Microsoft.NetApp,netAppAccounts / capacityPools / volumes,TRUE
 Microsoft.NetApp,netAppAccounts / capacityPools / volumes / mountTargets,TRUE
 Microsoft.NetApp,netAppAccounts / capacityPools / volumes / snapshots,TRUE
+Microsoft.Notebooks,NotebookProxies,FALSE
 Microsoft.Network,applicationGateways,TRUE
 Microsoft.Network,applicationGatewayWebApplicationFirewallPolicies,TRUE
 Microsoft.Network,applicationSecurityGroups,TRUE
@@ -717,7 +721,6 @@ Microsoft.OffAzure,ImportSites,TRUE
 Microsoft.OffAzure,ServerSites,TRUE
 Microsoft.OffAzure,VMwareSites,TRUE
 Microsoft.OperationalInsights,clusters,TRUE
-Microsoft.OperationalInsights,devices,FALSE
 Microsoft.OperationalInsights,linkTargets,FALSE
 Microsoft.OperationalInsights,storageInsightConfigs,FALSE
 Microsoft.OperationalInsights,workspaces,TRUE
@@ -728,6 +731,7 @@ Microsoft.OperationalInsights,workspaces / privateEndpointConnectionProxies,FALS
 Microsoft.OperationalInsights,workspaces / privateEndpointConnections,FALSE
 Microsoft.OperationalInsights,workspaces / privateLinkResources,FALSE
 Microsoft.OperationalInsights,workspaces / query,FALSE
+Microsoft.OperationalInsights,workspaces / scopedPrivateLinkProxies,FALSE
 Microsoft.OperationsManagement,managementassociations,FALSE
 Microsoft.OperationsManagement,managementconfigurations,TRUE
 Microsoft.OperationsManagement,solutions,TRUE
@@ -836,8 +840,10 @@ Microsoft.SecurityInsights,alertRuleTemplates,FALSE
 Microsoft.SecurityInsights,bookmarks,FALSE
 Microsoft.SecurityInsights,cases,FALSE
 Microsoft.SecurityInsights,dataConnectors,FALSE
+Microsoft.SecurityInsights,dataConnectorsCheckRequirements,FALSE
 Microsoft.SecurityInsights,entities,FALSE
 Microsoft.SecurityInsights,entityQueries,FALSE
+Microsoft.SecurityInsights,incidents,FALSE
 Microsoft.SecurityInsights,officeConsents,FALSE
 Microsoft.SecurityInsights,settings,FALSE
 Microsoft.ServiceBus,namespaces,TRUE
@@ -859,6 +865,8 @@ Microsoft.ServiceFabric,containerGroups,TRUE
 Microsoft.ServiceFabric,containerGroupSets,TRUE
 Microsoft.ServiceFabric,edgeclusters,TRUE
 Microsoft.ServiceFabric,edgeclusters / applications,FALSE
+Microsoft.ServiceFabric,managedclusters,TRUE
+Microsoft.ServiceFabric,managedclusters / nodetypes,FALSE
 Microsoft.ServiceFabric,networks,TRUE
 Microsoft.ServiceFabric,secretstores,TRUE
 Microsoft.ServiceFabric,secretstores / certificates,FALSE
@@ -880,6 +888,8 @@ Microsoft.SoftwarePlan,hybridUseBenefits,FALSE
 Microsoft.Solutions,applicationDefinitions,TRUE
 Microsoft.Solutions,applications,TRUE
 Microsoft.Solutions,jitRequests,TRUE
+Microsoft.SpoolService,registeredSubscriptions,FALSE
+Microsoft.SpoolService,spools,TRUE
 Microsoft.SQL,managedInstances,TRUE
 Microsoft.SQL,managedInstances / databases,TRUE
 Microsoft.SQL,managedInstances / databases / backupShortTermRetentionPolicies,FALSE
@@ -952,6 +962,7 @@ Microsoft.VMwareCloudSimple,virtualMachines,TRUE
 Microsoft.VnfManager,devices,TRUE
 Microsoft.VnfManager,vendors,FALSE
 Microsoft.VnfManager,vendors / skus,FALSE
+Microsoft.VnfManager,vendors / vnfs,FALSE
 Microsoft.VnfManager,vnfs,TRUE
 Microsoft.Web,apiManagementAccounts,FALSE
 Microsoft.Web,apiManagementAccounts / apiAcls,FALSE

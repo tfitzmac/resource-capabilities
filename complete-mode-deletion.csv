@@ -22,9 +22,7 @@ Microsoft.AlertsManagement,alertsList,FALSE
 Microsoft.AlertsManagement,alertsMetaData,FALSE
 Microsoft.AlertsManagement,alertsSummary,FALSE
 Microsoft.AlertsManagement,alertsSummaryList,FALSE
-Microsoft.AlertsManagement,feedback,FALSE
 Microsoft.AlertsManagement,smartDetectorAlertRules,TRUE
-Microsoft.AlertsManagement,smartDetectorRuntimeEnvironments,FALSE
 Microsoft.AlertsManagement,smartGroups,FALSE
 Microsoft.AnalysisServices,servers,TRUE
 Microsoft.ApiManagement,reportFeedback,FALSE
@@ -51,6 +49,9 @@ Microsoft.Authorization,roleDefinitions,FALSE
 Microsoft.Automation,automationAccounts,TRUE
 Microsoft.Automation,automationAccounts / configurations,TRUE
 Microsoft.Automation,automationAccounts / jobs,FALSE
+Microsoft.Automation,automationAccounts / privateEndpointConnectionProxies,FALSE
+Microsoft.Automation,automationAccounts / privateEndpointConnections,FALSE
+Microsoft.Automation,automationAccounts / privateLinkResources,FALSE
 Microsoft.Automation,automationAccounts / runbooks,TRUE
 Microsoft.Automation,automationAccounts / softwareUpdateConfigurations,FALSE
 Microsoft.Automation,automationAccounts / webhooks,FALSE
@@ -64,14 +65,13 @@ Microsoft.AzureActiveDirectory,b2cDirectories,TRUE
 Microsoft.AzureActiveDirectory,b2ctenants,FALSE
 Microsoft.AzureData,hybridDataManagers,TRUE
 Microsoft.AzureData,postgresInstances,TRUE
-Microsoft.AzureData,sqlBigDataClusters,TRUE
 Microsoft.AzureData,sqlInstances,TRUE
 Microsoft.AzureData,sqlServerRegistrations,TRUE
 Microsoft.AzureData,sqlServerRegistrations / sqlServers,FALSE
+Microsoft.AzureStack,cloudManifestFiles,FALSE
 Microsoft.AzureStack,registrations,TRUE
 Microsoft.AzureStack,registrations / customerSubscriptions,FALSE
 Microsoft.AzureStack,registrations / products,FALSE
-Microsoft.AzureStack,verificationKeys,FALSE
 Microsoft.Batch,batchAccounts,TRUE
 Microsoft.Billing,billingAccounts,FALSE
 Microsoft.Billing,billingAccounts / agreements,FALSE
@@ -161,6 +161,11 @@ Microsoft.BingMaps,updateCommunicationPreference,FALSE
 Microsoft.Blockchain,blockchainMembers,TRUE
 Microsoft.Blockchain,cordaMembers,TRUE
 Microsoft.Blockchain,watchers,TRUE
+Microsoft.BlockchainTokens,TokenServices,TRUE
+Microsoft.BlockchainTokens,TokenServices / BlockchainNetworks,FALSE
+Microsoft.BlockchainTokens,TokenServices / Groups,FALSE
+Microsoft.BlockchainTokens,TokenServices / Groups / Accounts,FALSE
+Microsoft.BlockchainTokens,TokenServices / TokenTemplates,FALSE
 Microsoft.Blueprint,blueprintAssignments,FALSE
 Microsoft.Blueprint,blueprintAssignments / assignmentOperations,FALSE
 Microsoft.Blueprint,blueprintAssignments / operations,FALSE
@@ -201,6 +206,7 @@ Microsoft.Cdn,edgenodes,FALSE
 Microsoft.Cdn,profiles,TRUE
 Microsoft.Cdn,profiles / endpoints,TRUE
 Microsoft.Cdn,profiles / endpoints / customdomains,FALSE
+Microsoft.Cdn,profiles / endpoints / origingroups,FALSE
 Microsoft.Cdn,profiles / endpoints / origins,FALSE
 Microsoft.Cdn,validateProbe,FALSE
 Microsoft.CertificateRegistration,certificateOrders,TRUE
@@ -273,9 +279,12 @@ Microsoft.Compute,images,TRUE
 Microsoft.Compute,proximityPlacementGroups,TRUE
 Microsoft.Compute,restorePointCollections,TRUE
 Microsoft.Compute,restorePointCollections / restorePoints,FALSE
+Microsoft.Compute,sharedVMExtensions,TRUE
+Microsoft.Compute,sharedVMExtensions / versions,FALSE
 Microsoft.Compute,sharedVMImages,TRUE
 Microsoft.Compute,sharedVMImages / versions,FALSE
 Microsoft.Compute,snapshots,TRUE
+Microsoft.Compute,sshPublicKeys,TRUE
 Microsoft.Compute,virtualMachines,TRUE
 Microsoft.Compute,virtualMachines / extensions,TRUE
 Microsoft.Compute,virtualMachines / metricDefinitions,FALSE
@@ -308,6 +317,7 @@ Microsoft.Consumption,UsageDetails,FALSE
 Microsoft.ContainerInstance,containerGroups,TRUE
 Microsoft.ContainerInstance,serviceAssociationLinks,FALSE
 Microsoft.ContainerRegistry,registries,TRUE
+Microsoft.ContainerRegistry,registries / agentPools,TRUE
 Microsoft.ContainerRegistry,registries / builds,FALSE
 Microsoft.ContainerRegistry,registries / builds / cancel,FALSE
 Microsoft.ContainerRegistry,registries / builds / getLogLink,FALSE
@@ -320,6 +330,7 @@ Microsoft.ContainerRegistry,registries / GetCredentials,FALSE
 Microsoft.ContainerRegistry,registries / importImage,FALSE
 Microsoft.ContainerRegistry,registries / privateEndpointConnectionProxies,FALSE
 Microsoft.ContainerRegistry,registries / privateEndpointConnectionProxies / validate,FALSE
+Microsoft.ContainerRegistry,registries / privateEndpointConnections,FALSE
 Microsoft.ContainerRegistry,registries / privateLinkResources,FALSE
 Microsoft.ContainerRegistry,registries / queueBuild,FALSE
 Microsoft.ContainerRegistry,registries / regenerateCredential,FALSE
@@ -339,7 +350,6 @@ Microsoft.ContainerRegistry,registries / webhooks / ping,FALSE
 Microsoft.ContainerService,containerServices,TRUE
 Microsoft.ContainerService,managedClusters,TRUE
 Microsoft.ContainerService,openShiftManagedClusters,TRUE
-Microsoft.CortanaAnalytics,accounts,TRUE
 Microsoft.CostManagement,Alerts,FALSE
 Microsoft.CostManagement,BillingAccounts,FALSE
 Microsoft.CostManagement,Budgets,FALSE
@@ -443,6 +453,7 @@ Microsoft.DBforPostgreSQL,servers / topQueryStatistics,FALSE
 Microsoft.DBforPostgreSQL,servers / virtualNetworkRules,FALSE
 Microsoft.DBforPostgreSQL,servers / waitStatistics,FALSE
 Microsoft.DBforPostgreSQL,serversv2,TRUE
+Microsoft.DBforPostgreSQL,singleServers,TRUE
 Microsoft.DeploymentManager,artifactSources,TRUE
 Microsoft.DeploymentManager,rollouts,TRUE
 Microsoft.DeploymentManager,serviceTopologies,TRUE
@@ -493,6 +504,7 @@ Microsoft.EventGrid,partnerNamespaces,TRUE
 Microsoft.EventGrid,partnerNamespaces / eventChannels,FALSE
 Microsoft.EventGrid,partnerRegistrations,TRUE
 Microsoft.EventGrid,partnerTopics,TRUE
+Microsoft.EventGrid,partnerTopics / eventSubscriptions,FALSE
 Microsoft.EventGrid,systemTopics,TRUE
 Microsoft.EventGrid,systemTopics / eventSubscriptions,FALSE
 Microsoft.EventGrid,topics,TRUE
@@ -505,8 +517,11 @@ Microsoft.EventHub,namespaces / eventhubs,FALSE
 Microsoft.EventHub,namespaces / eventhubs / authorizationrules,FALSE
 Microsoft.EventHub,namespaces / eventhubs / consumergroups,FALSE
 Microsoft.EventHub,namespaces / networkrulesets,FALSE
+Microsoft.Falcon,namespaces,TRUE
+Microsoft.Features,featureProviders,FALSE
 Microsoft.Features,features,FALSE
 Microsoft.Features,providers,FALSE
+Microsoft.Features,subscriptionFeatureRegistrations,FALSE
 Microsoft.Gallery,enroll,FALSE
 Microsoft.Gallery,galleryitems,FALSE
 Microsoft.Gallery,generateartifactaccessuri,FALSE
@@ -550,12 +565,14 @@ Microsoft.KeyVault,vaults,TRUE
 Microsoft.KeyVault,vaults / accessPolicies,FALSE
 Microsoft.KeyVault,vaults / eventGridFilters,FALSE
 Microsoft.KeyVault,vaults / secrets,FALSE
+Microsoft.Kubernetes,connectedClusters,TRUE
 Microsoft.Kusto,clusters,TRUE
 Microsoft.Kusto,clusters / attacheddatabaseconfigurations,FALSE
 Microsoft.Kusto,clusters / databases,FALSE
 Microsoft.Kusto,clusters / databases / dataconnections,FALSE
 Microsoft.Kusto,clusters / databases / eventhubconnections,FALSE
 Microsoft.Kusto,clusters / databases / principalassignments,FALSE
+Microsoft.Kusto,clusters / dataconnections,FALSE
 Microsoft.Kusto,clusters / principalassignments,FALSE
 Microsoft.Kusto,clusters / sharedidentities,FALSE
 Microsoft.LabServices,labaccounts,TRUE
@@ -572,6 +589,10 @@ Microsoft.MachineLearning,Workspaces,TRUE
 Microsoft.MachineLearningServices,workspaces,TRUE
 Microsoft.MachineLearningServices,workspaces / computes,FALSE
 Microsoft.MachineLearningServices,workspaces / eventGridFilters,FALSE
+Microsoft.Maintenance,applyUpdates,FALSE
+Microsoft.Maintenance,configurationAssignments,FALSE
+Microsoft.Maintenance,maintenanceConfigurations,TRUE
+Microsoft.Maintenance,updates,FALSE
 Microsoft.ManagedIdentity,Identities,FALSE
 Microsoft.ManagedIdentity,userAssignedIdentities,TRUE
 Microsoft.ManagedServices,marketplaceRegistrationDefinitions,FALSE
@@ -579,11 +600,13 @@ Microsoft.ManagedServices,registrationAssignments,FALSE
 Microsoft.ManagedServices,registrationDefinitions,FALSE
 Microsoft.Management,getEntities,FALSE
 Microsoft.Management,managementGroups,FALSE
+Microsoft.Management,managementGroups / settings,FALSE
 Microsoft.Management,resources,FALSE
 Microsoft.Management,startTenantBackfill,FALSE
 Microsoft.Management,tenantBackfillStatus,FALSE
 Microsoft.Maps,accounts,TRUE
 Microsoft.Maps,accounts / eventGridFilters,FALSE
+Microsoft.Maps,accounts / privateAtlases,TRUE
 Microsoft.Marketplace,offers,FALSE
 Microsoft.Marketplace,offerTypes,FALSE
 Microsoft.Marketplace,offerTypes / publishers,FALSE
@@ -594,10 +617,13 @@ Microsoft.Marketplace,offerTypes / publishers / offers / plans / configs,FALSE
 Microsoft.Marketplace,offerTypes / publishers / offers / plans / configs / importImage,FALSE
 Microsoft.Marketplace,privategalleryitems,FALSE
 Microsoft.Marketplace,privateStoreClient,FALSE
+Microsoft.Marketplace,privateStores,FALSE
+Microsoft.Marketplace,privateStores / offers,FALSE
 Microsoft.Marketplace,products,FALSE
 Microsoft.Marketplace,publishers,FALSE
 Microsoft.Marketplace,publishers / offers,FALSE
 Microsoft.Marketplace,publishers / offers / amendments,FALSE
+Microsoft.Marketplace,register,FALSE
 Microsoft.MarketplaceApps,classicDevServices,TRUE
 Microsoft.MarketplaceApps,updateCommunicationPreference,FALSE
 Microsoft.MarketplaceOrdering,agreements,FALSE
@@ -628,13 +654,11 @@ Microsoft.MixedReality,holographicsBroadcastAccounts,TRUE
 Microsoft.MixedReality,objectUnderstandingAccounts,TRUE
 Microsoft.MixedReality,remoteRenderingAccounts,TRUE
 Microsoft.MixedReality,spatialAnchorsAccounts,TRUE
-Microsoft.MixedReality,surfaceReconstructionAccounts,TRUE
 Microsoft.NetApp,netAppAccounts,TRUE
+Microsoft.NetApp,netAppAccounts / accountBackups,FALSE
 Microsoft.NetApp,netAppAccounts / capacityPools,TRUE
 Microsoft.NetApp,netAppAccounts / capacityPools / volumes,TRUE
-Microsoft.NetApp,netAppAccounts / capacityPools / volumes / mountTargets,TRUE
 Microsoft.NetApp,netAppAccounts / capacityPools / volumes / snapshots,TRUE
-Microsoft.Notebooks,NotebookProxies,FALSE
 Microsoft.Network,applicationGateways,TRUE
 Microsoft.Network,applicationGatewayWebApplicationFirewallPolicies,TRUE
 Microsoft.Network,applicationSecurityGroups,TRUE
@@ -713,6 +737,7 @@ Microsoft.Network,virtualWans,TRUE
 Microsoft.Network,vpnGateways,TRUE
 Microsoft.Network,vpnSites,TRUE
 Microsoft.Network,webApplicationFirewallPolicies,TRUE
+Microsoft.Notebooks,NotebookProxies,FALSE
 Microsoft.NotificationHubs,namespaces,TRUE
 Microsoft.NotificationHubs,namespaces / notificationHubs,TRUE
 Microsoft.ObjectStore,osNamespaces,TRUE
@@ -727,9 +752,7 @@ Microsoft.OperationalInsights,workspaces,TRUE
 Microsoft.OperationalInsights,workspaces / dataExports,FALSE
 Microsoft.OperationalInsights,workspaces / dataSources,FALSE
 Microsoft.OperationalInsights,workspaces / linkedServices,FALSE
-Microsoft.OperationalInsights,workspaces / privateEndpointConnectionProxies,FALSE
-Microsoft.OperationalInsights,workspaces / privateEndpointConnections,FALSE
-Microsoft.OperationalInsights,workspaces / privateLinkResources,FALSE
+Microsoft.OperationalInsights,workspaces / linkedStorageAccounts,FALSE
 Microsoft.OperationalInsights,workspaces / query,FALSE
 Microsoft.OperationalInsights,workspaces / scopedPrivateLinkProxies,FALSE
 Microsoft.OperationsManagement,managementassociations,FALSE
@@ -739,6 +762,7 @@ Microsoft.OperationsManagement,views,TRUE
 Microsoft.Peering,legacyPeerings,FALSE
 Microsoft.Peering,peerAsns,FALSE
 Microsoft.Peering,peerings,TRUE
+Microsoft.Peering,peeringServiceCountries,FALSE
 Microsoft.Peering,peeringServiceProviders,FALSE
 Microsoft.Peering,peeringServices,TRUE
 Microsoft.PolicyInsights,policyEvents,FALSE
@@ -752,6 +776,7 @@ Microsoft.Portal,userSettings,FALSE
 Microsoft.PowerBI,workspaceCollections,TRUE
 Microsoft.PowerBIDedicated,capacities,TRUE
 Microsoft.ProjectBabylon,accounts,TRUE
+Microsoft.Quantum,Workspaces,TRUE
 Microsoft.RecoveryServices,backupProtectedItems,FALSE
 Microsoft.RecoveryServices,vaults,TRUE
 Microsoft.Relay,namespaces,TRUE
@@ -791,7 +816,6 @@ Microsoft.Resources,subscriptions,FALSE
 Microsoft.Resources,tenants,FALSE
 Microsoft.SaaS,applications,TRUE
 Microsoft.SaaS,saasresources,FALSE
-Microsoft.Scheduler,jobcollections,TRUE
 Microsoft.Search,resourceHealthMetadata,FALSE
 Microsoft.Search,searchServices,TRUE
 Microsoft.Security,adaptiveNetworkHardenings,FALSE
@@ -821,6 +845,10 @@ Microsoft.Security,pricings,FALSE
 Microsoft.Security,regulatoryComplianceStandards,FALSE
 Microsoft.Security,regulatoryComplianceStandards / regulatoryComplianceControls,FALSE
 Microsoft.Security,regulatoryComplianceStandards / regulatoryComplianceControls / regulatoryComplianceAssessments,FALSE
+Microsoft.Security,secureScoreControlDefinitions,FALSE
+Microsoft.Security,secureScoreControls,FALSE
+Microsoft.Security,secureScores,FALSE
+Microsoft.Security,secureScores / secureScoreControls,FALSE
 Microsoft.Security,securityContacts,FALSE
 Microsoft.Security,securitySolutions,FALSE
 Microsoft.Security,securitySolutionsReferenceData,FALSE
@@ -952,6 +980,7 @@ Microsoft.Subscription,enable,FALSE
 Microsoft.Subscription,rename,FALSE
 Microsoft.Subscription,SubscriptionDefinitions,FALSE
 Microsoft.Subscription,SubscriptionOperations,FALSE
+Microsoft.Subscription,subscriptions,FALSE
 Microsoft.TimeSeriesInsights,environments,TRUE
 Microsoft.TimeSeriesInsights,environments / accessPolicies,FALSE
 Microsoft.TimeSeriesInsights,environments / eventsources,TRUE
@@ -960,9 +989,11 @@ Microsoft.VMwareCloudSimple,dedicatedCloudNodes,TRUE
 Microsoft.VMwareCloudSimple,dedicatedCloudServices,TRUE
 Microsoft.VMwareCloudSimple,virtualMachines,TRUE
 Microsoft.VnfManager,devices,TRUE
+Microsoft.VnfManager,registeredSubscriptions,FALSE
 Microsoft.VnfManager,vendors,FALSE
 Microsoft.VnfManager,vendors / skus,FALSE
 Microsoft.VnfManager,vendors / vnfs,FALSE
+Microsoft.VnfManager,virtualNetworkFunctionSkus,FALSE
 Microsoft.VnfManager,vnfs,TRUE
 Microsoft.Web,apiManagementAccounts,FALSE
 Microsoft.Web,apiManagementAccounts / apiAcls,FALSE
@@ -984,6 +1015,7 @@ Microsoft.Web,hostingEnvironments,TRUE
 Microsoft.Web,hostingEnvironments / eventGridFilters,FALSE
 Microsoft.Web,hostingEnvironments / multiRolePools,FALSE
 Microsoft.Web,hostingEnvironments / workerPools,FALSE
+Microsoft.Web,kubeEnvironments,TRUE
 Microsoft.Web,publishingUsers,FALSE
 Microsoft.Web,recommendations,FALSE
 Microsoft.Web,resourceHealthMetadata,FALSE

@@ -4,8 +4,11 @@ Microsoft.AAD/domainservices/oucontainer,0,0
 Microsoft.AAD/locations,0,0
 Microsoft.AAD/locations/operationresults,0,0
 Microsoft.AAD/operations,0,0
-microsoft.aadiam/privatelinkforazuread,0,0
-microsoft.aadiam/tenants,0,0
+microsoft.aadiam/diagnosticsettings,0,0
+microsoft.aadiam/diagnosticsettingscategories,0,0
+microsoft.aadiam/operations,0,0
+microsoft.aadiam/privatelinkforazuread,1,1
+microsoft.aadiam/tenants,1,1
 Microsoft.Addons/operationresults,0,0
 Microsoft.Addons/operations,0,0
 Microsoft.Addons/supportproviders,0,0
@@ -59,6 +62,8 @@ Microsoft.AppPlatform/locations/operationresults,0,0
 Microsoft.AppPlatform/locations/operationstatus,0,0
 Microsoft.AppPlatform/operations,0,0
 Microsoft.AppPlatform/spring,1,1
+Microsoft.AppPlatform/spring/apps,0,0
+Microsoft.AppPlatform/spring/apps/deployments,0,0
 Microsoft.AppService/apiapps,0,0
 Microsoft.AppService/appidentities,0,0
 Microsoft.AppService/gateways,0,0
@@ -72,11 +77,14 @@ Microsoft.Authorization/elevateaccess,0,0
 Microsoft.Authorization/findorphanroleassignments,0,0
 Microsoft.Authorization/locks,0,0
 Microsoft.Authorization/operations,0,0
+Microsoft.Authorization/operationstatus,0,0
 Microsoft.Authorization/permissions,0,0
 Microsoft.Authorization/policyassignments,0,0
 Microsoft.Authorization/policydefinitions,0,0
 Microsoft.Authorization/policysetdefinitions,0,0
+Microsoft.Authorization/privatelinkassociations,0,0
 Microsoft.Authorization/provideroperations,0,0
+Microsoft.Authorization/resourcemanagementprivatelinks,0,0
 Microsoft.Authorization/roleassignments,0,0
 Microsoft.Authorization/roleassignmentsusagemetrics,0,0
 Microsoft.Authorization/roledefinitions,0,0
@@ -92,6 +100,7 @@ Microsoft.Automation/automationaccounts/webhooks,0,0
 Microsoft.Automation/operations,0,0
 Microsoft.AVS/locations,0,0
 Microsoft.AVS/locations/checkquotaavailability,0,0
+Microsoft.AVS/locations/checktrialavailability,0,0
 Microsoft.AVS/operations,0,0
 Microsoft.AVS/privateclouds,1,1
 Microsoft.AVS/privateclouds/clusters,0,0
@@ -256,7 +265,7 @@ Microsoft.Cache/locations/operationresults,0,0
 Microsoft.Cache/locations/operationsstatus,0,0
 Microsoft.Cache/operations,0,0
 Microsoft.Cache/redis,1,1
-Microsoft.Cache/redis/privateendpointconnections,0,0
+Microsoft.Cache/redis/eventgridfilters,0,0
 Microsoft.Cache/redis/privatelinkresources,0,0
 Microsoft.Cache/redisenterprise,0,0
 Microsoft.Capacity/appliedreservations,0,0
@@ -560,7 +569,8 @@ Microsoft.DataBox/locations/regionconfiguration,0,0
 Microsoft.DataBox/locations/validateaddress,0,0
 Microsoft.DataBox/locations/validateinputs,0,0
 Microsoft.DataBox/operations,0,0
-Microsoft.DataBoxEdge/databoxedgedevices,0,0
+Microsoft.DataBoxEdge/availableskus,0,0
+Microsoft.DataBoxEdge/databoxedgedevices,1,1
 Microsoft.DataBoxEdge/databoxedgedevices/checknameavailability,0,0
 Microsoft.DataBoxEdge/operations,0,0
 Microsoft.Databricks/locations,0,0
@@ -752,6 +762,7 @@ Microsoft.Devices/elasticpools,0,0
 Microsoft.Devices/elasticpools/iothubtenants,0,0
 Microsoft.Devices/iothubs,1,1
 Microsoft.Devices/iothubs/eventgridfilters,0,0
+Microsoft.Devices/iothubs/securitysettings,0,0
 Microsoft.Devices/operationresults,0,0
 Microsoft.Devices/operations,0,0
 Microsoft.Devices/provisioningservices,1,1
@@ -773,6 +784,7 @@ Microsoft.DevTestLab/locations/operations,0,0
 Microsoft.DevTestLab/operations,0,0
 Microsoft.DevTestLab/schedules,1,1
 Microsoft.DigitalTwins/digitaltwinsinstances,0,0
+Microsoft.DigitalTwins/digitaltwinsinstances/operationresults,0,0
 Microsoft.DigitalTwins/locations,0,0
 Microsoft.DigitalTwins/operations,0,0
 Microsoft.DocumentDB/databaseaccountnames,0,0
@@ -877,11 +889,19 @@ Microsoft.HealthcareApis/operations,0,0
 Microsoft.HealthcareApis/services,1,1
 Microsoft.HealthcareApis/services/privateendpointconnections,0,0
 Microsoft.HealthcareApis/services/privatelinkresources,0,0
+Microsoft.HybridCompute/locations,0,0
+Microsoft.HybridCompute/locations/operationresults,0,0
+Microsoft.HybridCompute/locations/operationstatus,0,0
 Microsoft.HybridCompute/machines,1,1
-Microsoft.HybridCompute/machines/extensions,0,0
+Microsoft.HybridCompute/machines/extensions,1,1
 Microsoft.HybridCompute/operations,0,0
 Microsoft.HybridData/datamanagers,1,1
 Microsoft.HybridData/operations,0,0
+Microsoft.HybridNetwork/devices,0,0
+Microsoft.HybridNetwork/locations,0,0
+Microsoft.HybridNetwork/locations/operationstatuses,0,0
+Microsoft.HybridNetwork/operations,0,0
+Microsoft.HybridNetwork/vnfs,0,0
 Microsoft.Hydra/components,0,0
 Microsoft.Hydra/locations,0,0
 Microsoft.Hydra/networkscopes,0,0
@@ -899,6 +919,7 @@ microsoft.insights/calculatebaseline,0,0
 microsoft.insights/components,1,1
 microsoft.insights/components/events,0,0
 microsoft.insights/components/linkedstorageaccounts,0,0
+microsoft.insights/components/metadata,0,0
 microsoft.insights/components/metrics,0,0
 microsoft.insights/components/pricingplans,0,0
 microsoft.insights/components/query,0,0
@@ -937,6 +958,7 @@ microsoft.insights/topology,0,0
 microsoft.insights/transactions,0,0
 microsoft.insights/vminsightsonboardingstatuses,0,0
 microsoft.insights/webtests,1,1
+microsoft.insights/webtests/gettestresultfile,0,0
 microsoft.insights/workbooks,1,1
 microsoft.insights/workbooktemplates,1,1
 Microsoft.IoTCentral/apptemplates,0,0
@@ -954,6 +976,7 @@ Microsoft.KeyVault/locations,0,0
 Microsoft.KeyVault/locations/deletedvaults,0,0
 Microsoft.KeyVault/locations/deletevirtualnetworkorsubnets,0,0
 Microsoft.KeyVault/locations/operationresults,0,0
+Microsoft.KeyVault/managedhsms,0,0
 Microsoft.KeyVault/operations,0,0
 Microsoft.KeyVault/vaults,1,1
 Microsoft.KeyVault/vaults/accesspolicies,0,0
@@ -1096,11 +1119,11 @@ Microsoft.Media/mediaservices/transforms,0,0
 Microsoft.Media/mediaservices/transforms/jobs,0,0
 Microsoft.Media/operations,0,0
 Microsoft.Microservices4Spring/appclusters,0,0
-Microsoft.Migrate/assessmentprojects,1,1
+Microsoft.Migrate/assessmentprojects,0,0
 Microsoft.Migrate/locations,0,0
 Microsoft.Migrate/locations/assessmentoptions,0,0
 Microsoft.Migrate/locations/checknameavailability,0,0
-Microsoft.Migrate/migrateprojects,1,1
+Microsoft.Migrate/migrateprojects,0,0
 Microsoft.Migrate/movecollections,0,0
 Microsoft.Migrate/operations,0,0
 Microsoft.Migrate/projects,0,0
@@ -1156,10 +1179,12 @@ Microsoft.Network/expressrouteserviceproviders,0,0
 Microsoft.Network/firewallpolicies,1,1
 Microsoft.Network/frontdooroperationresults,0,0
 Microsoft.Network/frontdoors,0,0
+Microsoft.Network/frontdoors/frontendendpoints,0,0
 Microsoft.Network/frontdoorwebapplicationfirewallmanagedrulesets,0,0
 Microsoft.Network/frontdoorwebapplicationfirewallpolicies,0,0
 Microsoft.Network/getdnsresourcereference,0,0
 Microsoft.Network/internalnotify,0,0
+Microsoft.Network/ipallocations,1,1
 Microsoft.Network/ipgroups,1,1
 Microsoft.Network/loadbalancers,1,1
 Microsoft.Network/localnetworkgateways,1,1
@@ -1241,11 +1266,11 @@ Microsoft.NotificationHubs/namespaces/notificationhubs,1,1
 Microsoft.NotificationHubs/operationresults,0,0
 Microsoft.NotificationHubs/operations,0,0
 Microsoft.ObjectStore/osnamespaces,1,1
-Microsoft.OffAzure/hypervsites,1,1
-Microsoft.OffAzure/importsites,1,1
+Microsoft.OffAzure/hypervsites,0,0
+Microsoft.OffAzure/importsites,0,0
 Microsoft.OffAzure/operations,0,0
-Microsoft.OffAzure/serversites,1,1
-Microsoft.OffAzure/vmwaresites,1,1
+Microsoft.OffAzure/serversites,0,0
+Microsoft.OffAzure/vmwaresites,0,0
 Microsoft.OperationalInsights/clusters,0,0
 Microsoft.OperationalInsights/deletedworkspaces,0,0
 Microsoft.OperationalInsights/linktargets,0,0
@@ -1270,7 +1295,7 @@ Microsoft.Peering/legacypeerings,0,0
 Microsoft.Peering/operations,0,0
 Microsoft.Peering/peerasns,0,0
 Microsoft.Peering/peeringlocations,0,0
-Microsoft.Peering/peerings,1,1
+Microsoft.Peering/peerings,0,0
 Microsoft.Peering/peeringservicecountries,0,0
 Microsoft.Peering/peeringservicelocations,0,0
 Microsoft.Peering/peeringserviceproviders,0,0
@@ -1298,6 +1323,7 @@ Microsoft.PowerBIDedicated/locations/checknameavailability,0,0
 Microsoft.PowerBIDedicated/locations/operationresults,0,0
 Microsoft.PowerBIDedicated/locations/operationstatuses,0,0
 Microsoft.PowerBIDedicated/operations,0,0
+Microsoft.PowerPlatform/operations,0,0
 Microsoft.ProjectBabylon/accounts,0,0
 Microsoft.ProjectBabylon/checknameavailability,0,0
 Microsoft.ProjectBabylon/operations,0,0
@@ -1356,6 +1382,7 @@ Microsoft.ResourceHealth/events,0,0
 Microsoft.ResourceHealth/metadata,0,0
 Microsoft.ResourceHealth/notifications,0,0
 Microsoft.ResourceHealth/operations,0,0
+Microsoft.Resources/calculatetemplatehash,0,0
 Microsoft.Resources/checkpolicycompliance,0,0
 Microsoft.Resources/checkresourcename,0,0
 Microsoft.Resources/deployments,0,0
@@ -1448,6 +1475,7 @@ Microsoft.Security/workspacesettings,0,0
 Microsoft.SecurityInsights/aggregations,0,0
 Microsoft.SecurityInsights/alertrules,0,0
 Microsoft.SecurityInsights/alertruletemplates,0,0
+Microsoft.SecurityInsights/automationrules,0,0
 Microsoft.SecurityInsights/bookmarks,0,0
 Microsoft.SecurityInsights/cases,0,0
 Microsoft.SecurityInsights/dataconnectors,0,0
@@ -1513,8 +1541,6 @@ Microsoft.ServiceFabricMesh/networks,1,1
 Microsoft.ServiceFabricMesh/operations,0,0
 Microsoft.ServiceFabricMesh/secrets,1,1
 Microsoft.ServiceFabricMesh/volumes,1,1
-Microsoft.Services/providerregistrations,0,0
-Microsoft.Services/providerregistrations/resourcetyperegistrations,0,0
 Microsoft.Services/rollouts,0,0
 Microsoft.SignalRService/locations,0,0
 Microsoft.SignalRService/locations/checknameavailability,0,0
@@ -1733,6 +1759,8 @@ Microsoft.Storage/usages,0,0
 Microsoft.StorageCache/caches,0,0
 Microsoft.StorageSync/locations,0,0
 Microsoft.StorageSync/locations/checknameavailability,0,0
+Microsoft.StorageSync/locations/operationresults,0,0
+Microsoft.StorageSync/locations/operations,0,0
 Microsoft.StorageSync/locations/workflows,0,0
 Microsoft.StorageSync/operations,0,0
 Microsoft.StorageSync/storagesyncservices,1,1
@@ -1790,6 +1818,9 @@ Microsoft.Token/stores/accesspolicies,0,0
 Microsoft.Token/stores/services,0,0
 Microsoft.Token/stores/services/tokens,0,0
 Microsoft.VirtualMachineImages/imagetemplates,0,0
+Microsoft.VirtualMachineImages/imagetemplates/runoutputs,0,0
+Microsoft.VirtualMachineImages/locations,0,0
+Microsoft.VirtualMachineImages/locations/operations,0,0
 Microsoft.VirtualMachineImages/operations,0,0
 microsoft.visualstudio/account,0,0
 microsoft.visualstudio/account/extension,0,0
@@ -1825,6 +1856,7 @@ Microsoft.VnfManager/vnfs,0,0
 Microsoft.VSOnline/accounts,0,0
 Microsoft.VSOnline/operations,0,0
 Microsoft.VSOnline/plans,0,0
+Microsoft.VSOnline/registeredsubscriptions,0,0
 Microsoft.Web/availablestacks,0,0
 Microsoft.Web/billingmeters,0,0
 Microsoft.Web/certificates,0,1

@@ -130,15 +130,6 @@ Microsoft.Batch/locations/accountoperationresults,0,0
 Microsoft.Batch/locations/checknameavailability,0,0
 Microsoft.Batch/locations/quotas,0,0
 Microsoft.Batch/operations,0,0
-Microsoft.BatchAI/clusters,0,0
-Microsoft.BatchAI/fileservers,0,0
-Microsoft.BatchAI/jobs,0,0
-Microsoft.BatchAI/operations,0,0
-Microsoft.BatchAI/workspaces,0,0
-Microsoft.BatchAI/workspaces/clusters,0,0
-Microsoft.BatchAI/workspaces/experiments,0,0
-Microsoft.BatchAI/workspaces/experiments/jobs,0,0
-Microsoft.BatchAI/workspaces/fileservers,0,0
 Microsoft.Billing/billingaccounts,0,0
 Microsoft.Billing/billingaccounts/agreements,0,0
 Microsoft.Billing/billingaccounts/billingpermissions,0,0
@@ -374,7 +365,6 @@ Microsoft.ClassicStorage/storageaccounts/tableservices,0,0
 Microsoft.ClassicStorage/storageaccounts/vmimages,0,0
 Microsoft.ClassicStorage/vmimages,0,0
 Microsoft.ClassicSubscription/operations,0,0
-Microsoft.Cognition/syntheticsaccounts,0,0
 Microsoft.CognitiveServices/accounts,1,1
 Microsoft.CognitiveServices/checkdomainavailability,0,0
 Microsoft.CognitiveServices/locations,0,0
@@ -450,7 +440,6 @@ Microsoft.Consumption/tags,0,0
 Microsoft.Consumption/tenants,0,0
 Microsoft.Consumption/terms,0,0
 Microsoft.Consumption/usagedetails,0,0
-Microsoft.Container/containergroups,0,0
 Microsoft.ContainerInstance/containergroups,0,0
 Microsoft.ContainerInstance/locations,0,0
 Microsoft.ContainerInstance/locations/cachedimages,0,0
@@ -808,7 +797,6 @@ Microsoft.EnterpriseKnowledgeGraph/locations/operationresults,0,0
 Microsoft.EnterpriseKnowledgeGraph/operations,0,0
 Microsoft.EnterpriseKnowledgeGraph/services,1,1
 Microsoft.EventGrid/domains,1,1
-Microsoft.EventGrid/eventSubscriptions,0,0
 Microsoft.EventGrid/domains/topics,0,0
 Microsoft.EventGrid/eventsubscriptions,0,0
 Microsoft.EventGrid/extensiontopics,0,0
@@ -1030,7 +1018,6 @@ Microsoft.MachineLearningExperimentation/teamaccounts,0,0
 Microsoft.MachineLearningExperimentation/teamaccounts/workspaces,0,0
 Microsoft.MachineLearningExperimentation/teamaccounts/workspaces/projects,0,0
 Microsoft.MachineLearningModelManagement/accounts,0,0
-Microsoft.MachineLearningOperationalization/hostingaccounts,0,0
 Microsoft.MachineLearningServices/locations,0,0
 Microsoft.MachineLearningServices/locations/computeoperationsstatus,0,0
 Microsoft.MachineLearningServices/locations/quotas,0,0
@@ -1313,7 +1300,6 @@ Microsoft.Portal/locations/consoles,0,0
 Microsoft.Portal/locations/usersettings,0,0
 Microsoft.Portal/operations,0,0
 Microsoft.Portal/usersettings,0,0
-Microsoft.PortalSdk/rootresources,0,0
 Microsoft.PowerBI/locations,0,0
 Microsoft.PowerBI/locations/checknameavailability,0,0
 Microsoft.PowerBI/workspacecollections,1,1
@@ -1327,7 +1313,6 @@ Microsoft.PowerPlatform/operations,0,0
 Microsoft.ProjectBabylon/accounts,0,0
 Microsoft.ProjectBabylon/checknameavailability,0,0
 Microsoft.ProjectBabylon/operations,0,0
-Microsoft.ProjectOxford/accounts,0,0
 Microsoft.ProviderHub/availableaccounts,0,0
 Microsoft.ProviderHub/providerregistrations,0,0
 Microsoft.ProviderHub/providerregistrations/resourcetyperegistrations,0,0
@@ -1561,7 +1546,6 @@ Microsoft.Solutions/operations,0,0
 Microsoft.Sql/checknameavailability,0,0
 Microsoft.Sql/instancepools,0,0
 Microsoft.Sql/locations,1,1
-Microsoft.Sql/locations,0,0
 Microsoft.Sql/locations/administratorazureasyncoperation,0,0
 Microsoft.Sql/locations/administratoroperationresults,0,0
 Microsoft.Sql/locations/auditingsettingsazureasyncoperation,0,0
@@ -1738,7 +1722,6 @@ Microsoft.SqlVirtualMachine/operations,0,0
 Microsoft.SqlVirtualMachine/sqlvirtualmachinegroups,1,1
 Microsoft.SqlVirtualMachine/sqlvirtualmachinegroups/availabilitygrouplisteners,0,0
 Microsoft.SqlVirtualMachine/sqlvirtualmachines,1,1
-Microsoft.SqlVM/dwvm,0,0
 Microsoft.Storage/checknameavailability,0,0
 Microsoft.Storage/locations,0,0
 Microsoft.Storage/locations/asyncoperations,0,0
@@ -1806,8 +1789,6 @@ Microsoft.Synapse/workspaces/bigdatapools,1,1
 Microsoft.Synapse/workspaces/operationresults,0,0
 Microsoft.Synapse/workspaces/operationstatuses,0,0
 Microsoft.Synapse/workspaces/sqlpools,1,1
-Microsoft.TerraformOSS/providerregistrations,0,0
-Microsoft.TerraformOSS/resources,0,0
 Microsoft.TimeSeriesInsights/environments,1,1
 Microsoft.TimeSeriesInsights/environments/accesspolicies,0,0
 Microsoft.TimeSeriesInsights/environments/eventsources,1,1
@@ -1914,6 +1895,10 @@ Microsoft.WindowsESU/multipleactivationkeys,0,0
 Microsoft.WindowsESU/operations,0,0
 Microsoft.WindowsIoT/deviceservices,0,0
 Microsoft.WindowsIoT/operations,0,0
+Microsoft.WorkloadBuilder/locations,0,0
+Microsoft.WorkloadBuilder/locations/operationstatuses,0,0
+Microsoft.WorkloadBuilder/operations,0,0
+Microsoft.WorkloadBuilder/workloads,0,0
 Microsoft.WorkloadMonitor/components,0,0
 Microsoft.WorkloadMonitor/componentssummary,0,0
 Microsoft.WorkloadMonitor/monitorinstances,0,0

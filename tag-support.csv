@@ -34,6 +34,7 @@ Microsoft.AppPlatform,Spring,TRUE,TRUE
 Microsoft.AppPlatform,Spring/apps,FALSE,FALSE
 Microsoft.AppPlatform,Spring/apps/deployments,FALSE,FALSE
 Microsoft.Attestation,attestationProviders,TRUE,TRUE
+Microsoft.Attestation,defaultProviders,FALSE,FALSE
 Microsoft.Authorization,classicAdministrators,FALSE,FALSE
 Microsoft.Authorization,dataAliases,FALSE,FALSE
 Microsoft.Authorization,denyAssignments,FALSE,FALSE
@@ -78,11 +79,11 @@ Microsoft.AzureData,sqlServerInstances,TRUE,TRUE
 Microsoft.AzureData,sqlServerRegistrations,TRUE,TRUE
 Microsoft.AzureData,sqlServerRegistrations/sqlServers,FALSE,FALSE
 Microsoft.AzureStack,cloudManifestFiles,FALSE,FALSE
+Microsoft.AzureStack,edgeSubscriptions,TRUE,TRUE
 Microsoft.AzureStack,registrations,TRUE,TRUE
 Microsoft.AzureStack,registrations/customerSubscriptions,FALSE,FALSE
 Microsoft.AzureStack,registrations/products,FALSE,FALSE
 Microsoft.AzureStackHCI,clusters,TRUE,TRUE
-Microsoft.AzureStackResourceMonitor,storageAccountMonitor,TRUE,TRUE
 Microsoft.Batch,batchAccounts,TRUE,TRUE
 Microsoft.Billing,billingAccounts,FALSE,FALSE
 Microsoft.Billing,billingAccounts/agreements,FALSE,FALSE
@@ -132,8 +133,15 @@ Microsoft.Billing,billingAccounts/customers/products,FALSE,FALSE
 Microsoft.Billing,billingAccounts/customers/transactions,FALSE,FALSE
 Microsoft.Billing,billingAccounts/customers/transfers,FALSE,FALSE
 Microsoft.Billing,billingAccounts/departments,FALSE,FALSE
+Microsoft.Billing,billingAccounts/departments/billingPermissions,FALSE,FALSE
+Microsoft.Billing,billingAccounts/departments/billingRoleAssignments,FALSE,FALSE
+Microsoft.Billing,billingAccounts/departments/billingRoleDefinitions,FALSE,FALSE
 Microsoft.Billing,billingAccounts/enrollmentAccounts,FALSE,FALSE
+Microsoft.Billing,billingAccounts/enrollmentAccounts/billingPermissions,FALSE,FALSE
+Microsoft.Billing,billingAccounts/enrollmentAccounts/billingRoleAssignments,FALSE,FALSE
+Microsoft.Billing,billingAccounts/enrollmentAccounts/billingRoleDefinitions,FALSE,FALSE
 Microsoft.Billing,billingAccounts/invoices,FALSE,FALSE
+Microsoft.Billing,billingAccounts/invoices/transactions,FALSE,FALSE
 Microsoft.Billing,billingAccounts/invoiceSections,FALSE,FALSE
 Microsoft.Billing,billingAccounts/invoiceSections/billingSubscriptionMoveOperations,FALSE,FALSE
 Microsoft.Billing,billingAccounts/invoiceSections/billingSubscriptions,FALSE,FALSE
@@ -305,7 +313,6 @@ Microsoft.Compute,sharedVMImages,TRUE,TRUE
 Microsoft.Compute,sharedVMImages/versions,FALSE,FALSE
 Microsoft.Compute,snapshots,TRUE,TRUE
 Microsoft.Compute,sshPublicKeys,TRUE,TRUE
-Microsoft.Compute,swiftlets,TRUE,TRUE
 Microsoft.Compute,virtualMachines,TRUE,TRUE
 Microsoft.Compute,virtualMachines/extensions,TRUE,TRUE
 Microsoft.Compute,virtualMachines/metricDefinitions,FALSE,FALSE
@@ -316,6 +323,7 @@ Microsoft.Compute,virtualMachineScaleSets/networkInterfaces,FALSE,FALSE
 Microsoft.Compute,virtualMachineScaleSets/publicIPAddresses,FALSE,FALSE
 Microsoft.Compute,virtualMachineScaleSets/virtualMachines,FALSE,FALSE
 Microsoft.Compute,virtualMachineScaleSets/virtualMachines/networkInterfaces,FALSE,FALSE
+Microsoft.ConnectedCache,CacheNodes,TRUE,TRUE
 Microsoft.Consumption,AggregatedCost,FALSE,FALSE
 Microsoft.Consumption,Balances,FALSE,FALSE
 Microsoft.Consumption,Budgets,FALSE,FALSE
@@ -418,9 +426,7 @@ Microsoft.DataCatalog,datacatalogs,TRUE,TRUE
 Microsoft.DataCatalog,datacatalogs/datasources,FALSE,FALSE
 Microsoft.DataCatalog,datacatalogs/datasources/scans,FALSE,FALSE
 Microsoft.DataCatalog,datacatalogs/datasources/scans/datasets,FALSE,FALSE
-Microsoft.DataCatalog,datacatalogs/datasources/scans/filters,FALSE,FALSE
 Microsoft.DataCatalog,datacatalogs/datasources/scans/triggers,FALSE,FALSE
-Microsoft.DataCatalog,datacatalogs/scanrulesets,FALSE,FALSE
 Microsoft.DataFactory,dataFactories,TRUE,FALSE
 Microsoft.DataFactory,dataFactories/diagnosticSettings,FALSE,FALSE
 Microsoft.DataFactory,dataFactories/metricDefinitions,FALSE,FALSE
@@ -438,6 +444,7 @@ Microsoft.DataLakeStore,accounts/firewallRules,FALSE,FALSE
 Microsoft.DataMigration,services,FALSE,FALSE
 Microsoft.DataMigration,services/projects,FALSE,FALSE
 Microsoft.DataProtection,BackupVaults,TRUE,TRUE
+Microsoft.DataProtection,ResourceOperationGateKeepers,TRUE,TRUE
 Microsoft.DataShare,accounts,TRUE,TRUE
 Microsoft.DataShare,accounts/shares,FALSE,FALSE
 Microsoft.DataShare,accounts/shares/datasets,FALSE,FALSE
@@ -650,7 +657,7 @@ Microsoft.LabServices,users,FALSE,FALSE
 Microsoft.Logic,hostingEnvironments,TRUE,TRUE
 Microsoft.Logic,integrationAccounts,TRUE,TRUE
 Microsoft.Logic,integrationServiceEnvironments,TRUE,TRUE
-Microsoft.Logic,integrationServiceEnvironments/managedApis,TRUE,TRUE
+Microsoft.Logic,integrationServiceEnvironments/managedApis,FALSE,FALSE
 Microsoft.Logic,isolatedEnvironments,TRUE,TRUE
 Microsoft.Logic,workflows,TRUE,TRUE
 Microsoft.MachineLearning,commitmentPlans,TRUE,TRUE
@@ -854,10 +861,14 @@ Microsoft.PolicyInsights,remediations,FALSE,FALSE
 Microsoft.Portal,consoles,FALSE,FALSE
 Microsoft.Portal,dashboards,TRUE,TRUE
 Microsoft.Portal,userSettings,FALSE,FALSE
+Microsoft.PowerBI,privateLinkServicesForPowerBI,TRUE,TRUE
+Microsoft.PowerBI,tenants,TRUE,TRUE
+Microsoft.PowerBI,tenants/workspaces,FALSE,FALSE
 Microsoft.PowerBI,workspaceCollections,TRUE,TRUE
 Microsoft.PowerBIDedicated,capacities,TRUE,TRUE
 Microsoft.ProjectBabylon,accounts,TRUE,TRUE
 Microsoft.ProviderHub,providerRegistrations,FALSE,FALSE
+Microsoft.ProviderHub,providerRegistrations/defaultRollouts,FALSE,FALSE
 Microsoft.ProviderHub,providerRegistrations/resourceTypeRegistrations,FALSE,FALSE
 Microsoft.ProviderHub,rollouts,TRUE,TRUE
 Microsoft.Quantum,Workspaces,TRUE,TRUE
@@ -923,6 +934,8 @@ Microsoft.Security,iotSecuritySolutions,TRUE,TRUE
 Microsoft.Security,iotSecuritySolutions/analyticsModels,FALSE,FALSE
 Microsoft.Security,iotSecuritySolutions/analyticsModels/aggregatedAlerts,FALSE,FALSE
 Microsoft.Security,iotSecuritySolutions/analyticsModels/aggregatedRecommendations,FALSE,FALSE
+Microsoft.Security,iotSecuritySolutions/iotAlerts,FALSE,FALSE
+Microsoft.Security,iotSecuritySolutions/iotAlertTypes,FALSE,FALSE
 Microsoft.Security,jitNetworkAccessPolicies,FALSE,FALSE
 Microsoft.Security,policies,FALSE,FALSE
 Microsoft.Security,pricings,FALSE,FALSE

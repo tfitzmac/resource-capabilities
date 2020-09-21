@@ -17,6 +17,7 @@ Microsoft.Advisor,generateRecommendations,FALSE
 Microsoft.Advisor,metadata,FALSE
 Microsoft.Advisor,recommendations,FALSE
 Microsoft.Advisor,suppressions,FALSE
+Microsoft.AgFoodPlatform,farmBeats,TRUE
 Microsoft.AlertsManagement,actionRules,TRUE
 Microsoft.AlertsManagement,alerts,FALSE
 Microsoft.AlertsManagement,alertsList,FALSE
@@ -95,6 +96,7 @@ Microsoft.AzureData,sqlServerRegistrations,TRUE
 Microsoft.AzureData,sqlServerRegistrations / sqlServers,FALSE
 Microsoft.AzureStack,cloudManifestFiles,FALSE
 Microsoft.AzureStack,edgeSubscriptions,TRUE
+Microsoft.AzureStack,linkedSubscriptions,TRUE
 Microsoft.AzureStack,registrations,TRUE
 Microsoft.AzureStack,registrations / customerSubscriptions,FALSE
 Microsoft.AzureStack,registrations / products,FALSE
@@ -132,6 +134,7 @@ Microsoft.Billing,billingAccounts / billingProfiles / policies,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / pricesheet,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / pricesheetDownloadOperations,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / products,FALSE
+Microsoft.Billing,billingAccounts / billingProfiles / reservations,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / transactions,FALSE
 Microsoft.Billing,billingAccounts / billingProfiles / validateDetachPaymentMethodEligibility,FALSE
 Microsoft.Billing,billingAccounts / billingRoleAssignments,FALSE
@@ -175,6 +178,7 @@ Microsoft.Billing,billingAccounts / lineOfCredit,FALSE
 Microsoft.Billing,billingAccounts / patchOperations,FALSE
 Microsoft.Billing,billingAccounts / paymentMethods,FALSE
 Microsoft.Billing,billingAccounts / products,FALSE
+Microsoft.Billing,billingAccounts / reservations,FALSE
 Microsoft.Billing,billingAccounts / transactions,FALSE
 Microsoft.Billing,billingPeriods,FALSE
 Microsoft.Billing,billingPermissions,FALSE
@@ -220,6 +224,10 @@ Microsoft.Cache,Redis / privateEndpointConnectionProxies / validate,FALSE
 Microsoft.Cache,Redis / privateEndpointConnections,FALSE
 Microsoft.Cache,Redis / privateLinkResources,FALSE
 Microsoft.Cache,redisEnterprise,TRUE
+Microsoft.Cache,RedisEnterprise / privateEndpointConnectionProxies,FALSE
+Microsoft.Cache,RedisEnterprise / privateEndpointConnectionProxies / validate,FALSE
+Microsoft.Cache,RedisEnterprise / privateEndpointConnections,FALSE
+Microsoft.Cache,RedisEnterprise / privateLinkResources,FALSE
 Microsoft.Capacity,appliedReservations,FALSE
 Microsoft.Capacity,autoQuotaIncrease,FALSE
 Microsoft.Capacity,calculateExchange,FALSE
@@ -228,6 +236,7 @@ Microsoft.Capacity,calculatePurchasePrice,FALSE
 Microsoft.Capacity,catalogs,FALSE
 Microsoft.Capacity,commercialReservationOrders,FALSE
 Microsoft.Capacity,exchange,FALSE
+Microsoft.Capacity,ownReservations,FALSE
 Microsoft.Capacity,placePurchaseOrder,FALSE
 Microsoft.Capacity,reservationOrders,FALSE
 Microsoft.Capacity,reservationOrders / calculateRefund,FALSE
@@ -315,6 +324,11 @@ Microsoft.Commerce,RateCard,FALSE
 Microsoft.Commerce,UsageAggregates,FALSE
 Microsoft.Compute,availabilitySets,TRUE
 Microsoft.Compute,cloudServices,TRUE
+Microsoft.Compute,cloudServices / networkInterfaces,FALSE
+Microsoft.Compute,cloudServices / publicIPAddresses,FALSE
+Microsoft.Compute,cloudServices / roleInstances,FALSE
+Microsoft.Compute,cloudServices / roleInstances / networkInterfaces,FALSE
+Microsoft.Compute,cloudServices / roles,FALSE
 Microsoft.Compute,diskAccesses,TRUE
 Microsoft.Compute,diskEncryptionSets,TRUE
 Microsoft.Compute,disks,TRUE
@@ -438,6 +452,7 @@ Microsoft.CostManagement,Views,FALSE
 Microsoft.CustomerLockbox,requests,FALSE
 Microsoft.CustomProviders,associations,FALSE
 Microsoft.CustomProviders,resourceProviders,TRUE
+Microsoft.D365CustomerInsights,instances,TRUE
 Microsoft.DataBox,jobs,TRUE
 Microsoft.DataBoxEdge,DataBoxEdgeDevices,TRUE
 Microsoft.Databricks,workspaces,TRUE
@@ -481,9 +496,12 @@ Microsoft.DBforMariaDB,servers / privateEndpointConnections,FALSE
 Microsoft.DBforMariaDB,servers / privateLinkResources,FALSE
 Microsoft.DBforMariaDB,servers / queryTexts,FALSE
 Microsoft.DBforMariaDB,servers / recoverableServers,FALSE
+Microsoft.DBforMariaDB,servers / start,FALSE
+Microsoft.DBforMariaDB,servers / stop,FALSE
 Microsoft.DBforMariaDB,servers / topQueryStatistics,FALSE
 Microsoft.DBforMariaDB,servers / virtualNetworkRules,FALSE
 Microsoft.DBforMariaDB,servers / waitStatistics,FALSE
+Microsoft.DBforMySQL,flexibleServers,TRUE
 Microsoft.DBforMySQL,servers,TRUE
 Microsoft.DBforMySQL,servers / advisors,FALSE
 Microsoft.DBforMySQL,servers / keys,FALSE
@@ -492,7 +510,10 @@ Microsoft.DBforMySQL,servers / privateEndpointConnections,FALSE
 Microsoft.DBforMySQL,servers / privateLinkResources,FALSE
 Microsoft.DBforMySQL,servers / queryTexts,FALSE
 Microsoft.DBforMySQL,servers / recoverableServers,FALSE
+Microsoft.DBforMySQL,servers / start,FALSE
+Microsoft.DBforMySQL,servers / stop,FALSE
 Microsoft.DBforMySQL,servers / topQueryStatistics,FALSE
+Microsoft.DBforMySQL,servers / upgrade,FALSE
 Microsoft.DBforMySQL,servers / virtualNetworkRules,FALSE
 Microsoft.DBforMySQL,servers / waitStatistics,FALSE
 Microsoft.DBforPostgreSQL,flexibleServers,TRUE
@@ -577,6 +598,7 @@ Microsoft.EventHub,namespaces / eventhubs,FALSE
 Microsoft.EventHub,namespaces / eventhubs / authorizationrules,FALSE
 Microsoft.EventHub,namespaces / eventhubs / consumergroups,FALSE
 Microsoft.EventHub,namespaces / networkrulesets,FALSE
+Microsoft.EventHub,namespaces / privateEndpointConnections,FALSE
 Microsoft.Experimentation,experimentWorkspaces,TRUE
 Microsoft.Falcon,namespaces,TRUE
 Microsoft.Features,featureProviders,FALSE
@@ -613,10 +635,12 @@ Microsoft.HealthcareApis,services / iomtconnectors,FALSE
 Microsoft.HealthcareApis,services / iomtconnectors / connections,FALSE
 Microsoft.HealthcareApis,services / iomtconnectors / mappings,FALSE
 Microsoft.HealthcareApis,services / privateEndpointConnectionProxies,FALSE
-Microsoft.HealthcareApis,services / privateEndpointConnections,TRUE
-Microsoft.HealthcareApis,services / privateLinkResources,TRUE
+Microsoft.HealthcareApis,services / privateEndpointConnections,FALSE
+Microsoft.HealthcareApis,services / privateLinkResources,FALSE
 Microsoft.HybridCompute,machines,TRUE
+Microsoft.HybridCompute,machines / assessPatches,FALSE
 Microsoft.HybridCompute,machines / extensions,TRUE
+Microsoft.HybridCompute,machines / installPatches,FALSE
 Microsoft.HybridData,dataManagers,TRUE
 Microsoft.HybridNetwork,devices,TRUE
 Microsoft.HybridNetwork,registeredSubscriptions,FALSE
@@ -639,6 +663,8 @@ Microsoft.KeyVault,managedHSMs,TRUE
 Microsoft.KeyVault,vaults,TRUE
 Microsoft.KeyVault,vaults / accessPolicies,FALSE
 Microsoft.KeyVault,vaults / eventGridFilters,FALSE
+Microsoft.KeyVault,vaults / keys,FALSE
+Microsoft.KeyVault,vaults / keys / versions,FALSE
 Microsoft.KeyVault,vaults / secrets,FALSE
 Microsoft.Kubernetes,connectedClusters,TRUE
 Microsoft.Kubernetes,registeredSubscriptions,FALSE
@@ -665,6 +691,7 @@ Microsoft.MachineLearning,commitmentPlans,TRUE
 Microsoft.MachineLearning,webServices,TRUE
 Microsoft.MachineLearning,Workspaces,TRUE
 Microsoft.MachineLearningServices,workspaces,TRUE
+Microsoft.MachineLearningServices,workspaces / codeJobs,FALSE
 Microsoft.MachineLearningServices,workspaces / computes,FALSE
 Microsoft.MachineLearningServices,workspaces / eventGridFilters,FALSE
 Microsoft.MachineLearningServices,workspaces / inferenceEndpoints,TRUE
@@ -784,6 +811,7 @@ Microsoft.Network,frontdoorWebApplicationFirewallManagedRuleSets,FALSE
 Microsoft.Network,frontdoorWebApplicationFirewallPolicies,TRUE
 Microsoft.Network,getDnsResourceReference,FALSE
 Microsoft.Network,internalNotify,FALSE
+Microsoft.Network,ipGroups,TRUE
 Microsoft.Network,loadBalancers,TRUE
 Microsoft.Network,localNetworkGateways,TRUE
 Microsoft.Network,natGateways,TRUE
@@ -875,6 +903,7 @@ Microsoft.PowerBI,tenants / workspaces,FALSE
 Microsoft.PowerBI,workspaceCollections,TRUE
 Microsoft.PowerBIDedicated,capacities,TRUE
 Microsoft.ProjectBabylon,accounts,TRUE
+Microsoft.ProjectBabylon,deletedAccounts,FALSE
 Microsoft.ProviderHub,providerRegistrations,FALSE
 Microsoft.ProviderHub,providerRegistrations / defaultRollouts,FALSE
 Microsoft.ProviderHub,providerRegistrations / resourceTypeRegistrations,FALSE
@@ -919,6 +948,11 @@ Microsoft.Resources,templateSpecs / versions,TRUE
 Microsoft.Resources,tenants,FALSE
 Microsoft.SaaS,applications,TRUE
 Microsoft.SaaS,saasresources,FALSE
+Microsoft.ScVmm,clouds,TRUE
+Microsoft.ScVmm,VirtualMachines,TRUE
+Microsoft.ScVmm,VirtualMachineTemplates,TRUE
+Microsoft.ScVmm,VirtualNetworks,TRUE
+Microsoft.ScVmm,vmmservers,TRUE
 Microsoft.Search,resourceHealthMetadata,FALSE
 Microsoft.Search,searchServices,TRUE
 Microsoft.Security,adaptiveNetworkHardenings,FALSE
@@ -939,6 +973,7 @@ Microsoft.Security,deviceSecurityGroups,FALSE
 Microsoft.Security,discoveredSecuritySolutions,FALSE
 Microsoft.Security,externalSecuritySolutions,FALSE
 Microsoft.Security,InformationProtectionPolicies,FALSE
+Microsoft.Security,iotDefenderSettings,FALSE
 Microsoft.Security,iotSecuritySolutions,TRUE
 Microsoft.Security,iotSecuritySolutions / analyticsModels,FALSE
 Microsoft.Security,iotSecuritySolutions / analyticsModels / aggregatedAlerts,FALSE
@@ -947,6 +982,7 @@ Microsoft.Security,iotSecuritySolutions / iotAlerts,FALSE
 Microsoft.Security,iotSecuritySolutions / iotAlertTypes,FALSE
 Microsoft.Security,iotSecuritySolutions / iotRecommendations,FALSE
 Microsoft.Security,iotSecuritySolutions / iotRecommendationTypes,FALSE
+Microsoft.Security,iotSensors,FALSE
 Microsoft.Security,jitNetworkAccessPolicies,FALSE
 Microsoft.Security,jitPolicies,FALSE
 Microsoft.Security,policies,FALSE
@@ -965,6 +1001,7 @@ Microsoft.Security,securityStatuses,FALSE
 Microsoft.Security,securityStatusesSummaries,FALSE
 Microsoft.Security,serverVulnerabilityAssessments,FALSE
 Microsoft.Security,settings,FALSE
+Microsoft.Security,sqlVulnerabilityAssessments,FALSE
 Microsoft.Security,subAssessments,FALSE
 Microsoft.Security,tasks,FALSE
 Microsoft.Security,topologies,FALSE
@@ -992,6 +1029,7 @@ Microsoft.ServiceBus,namespaces / authorizationrules,FALSE
 Microsoft.ServiceBus,namespaces / disasterrecoveryconfigs,FALSE
 Microsoft.ServiceBus,namespaces / eventgridfilters,FALSE
 Microsoft.ServiceBus,namespaces / networkrulesets,FALSE
+Microsoft.ServiceBus,namespaces / privateEndpointConnections,FALSE
 Microsoft.ServiceBus,namespaces / queues,FALSE
 Microsoft.ServiceBus,namespaces / queues / authorizationrules,FALSE
 Microsoft.ServiceBus,namespaces / topics,FALSE
@@ -1052,6 +1090,7 @@ Microsoft.SQL,virtualClusters,FALSE
 Microsoft.SqlVirtualMachine,SqlVirtualMachineGroups,TRUE
 Microsoft.SqlVirtualMachine,SqlVirtualMachineGroups / AvailabilityGroupListeners,FALSE
 Microsoft.SqlVirtualMachine,SqlVirtualMachines,TRUE
+Microsoft.Storage,deletedAccounts,FALSE
 Microsoft.Storage,storageAccounts,TRUE
 Microsoft.Storage,storageAccounts / blobServices,FALSE
 Microsoft.Storage,storageAccounts / fileServices,FALSE

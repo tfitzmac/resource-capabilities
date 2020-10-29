@@ -842,7 +842,7 @@ Microsoft.Network,networkProfiles,TRUE,TRUE
 Microsoft.Network,networkSecurityGroups,TRUE,TRUE
 Microsoft.Network,networkWatchers,TRUE,TRUE
 Microsoft.Network,networkWatchers/connectionMonitors,TRUE,FALSE
-Microsoft.Network,networkWatchers/flowLogs,FALSE,FALSE
+Microsoft.Network,networkWatchers/flowLogs,TRUE,FALSE
 Microsoft.Network,networkWatchers/lenses,TRUE,FALSE
 Microsoft.Network,networkWatchers/pingMeshes,TRUE,FALSE
 Microsoft.Network,p2sVpnGateways,TRUE,TRUE

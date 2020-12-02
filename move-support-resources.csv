@@ -452,7 +452,7 @@ Microsoft.Network/privatednszones,1,1
 Microsoft.Network/privatednszones/virtualnetworklinks,1,1
 Microsoft.Network/privatednszonesinternal,0,0
 Microsoft.Network/privateendpointredirectmaps,0,0
-Microsoft.Network/privateendpoints,1,1
+Microsoft.Network/privateendpoints,0,0
 Microsoft.Network/privatelinkservices,0,0
 Microsoft.Network/publicipaddresses,0,0
 Microsoft.Network/publicipprefixes,1,1

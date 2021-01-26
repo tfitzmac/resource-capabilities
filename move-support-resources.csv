@@ -213,7 +213,7 @@ Microsoft.CustomProviders/associations,0,0
 Microsoft.CustomProviders/resourceproviders,1,1
 Microsoft.DataBox/jobs,0,0
 Microsoft.DataBoxEdge/availableskus,0,0
-Microsoft.DataBoxEdge/databoxedgedevices,1,1
+Microsoft.DataBoxEdge/databoxedgedevices,0,0
 Microsoft.Databricks/workspaces,0,0
 Microsoft.DataCatalog/catalogs,1,1
 Microsoft.DataCatalog/datacatalogs,0,0
@@ -221,7 +221,6 @@ Microsoft.DataConnect/connectionmanagers,0,0
 Microsoft.DataExchange/packages,0,0
 Microsoft.DataExchange/plans,0,0
 Microsoft.DataFactory/datafactories,1,1
-Microsoft.DataFactory/datafactoryschema,0,0
 Microsoft.DataFactory/factories,1,1
 Microsoft.DataLake/datalakeaccounts,0,0
 Microsoft.DataLakeAnalytics/accounts,1,1
@@ -294,7 +293,7 @@ Microsoft.GuestConfiguration/software,0,0
 Microsoft.GuestConfiguration/softwareupdateprofile,0,0
 Microsoft.GuestConfiguration/softwareupdates,0,0
 Microsoft.HanaOnAzure/hanainstances,0,0
-Microsoft.HanaOnAzure/sapmonitors,1,1
+Microsoft.HanaOnAzure/sapmonitors,0,0
 Microsoft.HardwareSecurityModules/dedicatedhsms,0,0
 Microsoft.HDInsight/clusters,1,1
 Microsoft.HealthcareApis/services,1,1
@@ -435,7 +434,7 @@ Microsoft.Network/firewallpolicies,1,1
 Microsoft.Network/frontdoors,0,0
 Microsoft.Network/ipallocations,1,1
 Microsoft.Network/ipgroups,1,1
-Microsoft.Network/loadbalancers,0,0
+Microsoft.Network/loadbalancers,1,1
 Microsoft.Network/localnetworkgateways,1,1
 Microsoft.Network/natgateways,0,0
 Microsoft.Network/networkexperimentprofiles,0,0
@@ -443,7 +442,7 @@ Microsoft.Network/networkintentpolicies,1,1
 Microsoft.Network/networkinterfaces,1,1
 Microsoft.Network/networkprofiles,0,0
 Microsoft.Network/networksecuritygroups,1,1
-Microsoft.Network/networkwatchers,1,0
+Microsoft.Network/networkwatchers,0,0
 Microsoft.Network/networkwatchers/connectionmonitors,1,0
 Microsoft.Network/networkwatchers/flowlogs,1,0
 Microsoft.Network/networkwatchers/pingmeshes,1,0
@@ -452,9 +451,9 @@ Microsoft.Network/privatednszones,1,1
 Microsoft.Network/privatednszones/virtualnetworklinks,1,1
 Microsoft.Network/privatednszonesinternal,0,0
 Microsoft.Network/privateendpointredirectmaps,0,0
-Microsoft.Network/privateendpoints,1,1
+Microsoft.Network/privateendpoints,0,0
 Microsoft.Network/privatelinkservices,0,0
-Microsoft.Network/publicipaddresses,0,0
+Microsoft.Network/publicipaddresses,1,1
 Microsoft.Network/publicipprefixes,1,1
 Microsoft.Network/routefilters,0,0
 Microsoft.Network/routetables,1,1
@@ -645,9 +644,9 @@ Microsoft.StreamAnalyticsExplorer/instances,0,0
 Microsoft.Subscription/subscriptions,0,0
 microsoft.support/services,0,0
 microsoft.support/supporttickets,0,0
-Microsoft.Synapse/workspaces,1,1
-Microsoft.Synapse/workspaces/bigdatapools,1,1
-Microsoft.Synapse/workspaces/sqlpools,1,1
+Microsoft.Synapse/workspaces,0,0
+Microsoft.Synapse/workspaces/bigdatapools,0,0
+Microsoft.Synapse/workspaces/sqlpools,0,0
 Microsoft.TimeSeriesInsights/environments,1,1
 Microsoft.TimeSeriesInsights/environments/eventsources,1,1
 Microsoft.TimeSeriesInsights/environments/referencedatasets,1,1

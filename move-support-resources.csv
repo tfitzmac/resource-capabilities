@@ -231,9 +231,9 @@ Microsoft.DataMigration/slots,0,0
 Microsoft.DataProtection/backupvaults,0,0
 Microsoft.DataShare/accounts,1,1
 Microsoft.DBforMariaDB/servers,1,1
-Microsoft.DBforMySQL/flexibleServers,1,1
+Microsoft.DBforMySQL/flexibleServers,0,0
 Microsoft.DBforMySQL/servers,1,1
-Microsoft.DBforPostgreSQL/flexibleServers,1,1
+Microsoft.DBforPostgreSQL/flexibleServers,0,0
 Microsoft.DBforPostgreSQL/servergroups,0,0
 Microsoft.DBforPostgreSQL/servers,1,1
 Microsoft.DBforPostgreSQL/serversv2,1,1
@@ -469,9 +469,9 @@ Microsoft.Network/virtualnetworks,1,1
 Microsoft.Network/virtualnetworktaps,0,0
 Microsoft.Network/virtualrouters,1,1
 Microsoft.Network/virtualwans,0,0
-Microsoft.Network/vpngateways,0,0
+Microsoft.Network/vpngateways(VirtualWAN),0,0
 Microsoft.Network/vpnserverconfigurations,0,0
-Microsoft.Network/vpnsites,0,0
+Microsoft.Network/vpnsites(VirtualWAN),0,0
 Microsoft.NotificationHubs/namespaces,1,1
 Microsoft.NotificationHubs/namespaces/notificationhubs,1,1
 Microsoft.ObjectStore/osnamespaces,1,1

@@ -283,6 +283,7 @@ Microsoft.EventHub/clusters,1,1,0
 Microsoft.EventHub/namespaces,1,1,1
 Microsoft.EventHub/sku,0,0,0
 Microsoft.Experimentation/experimentworkspaces,0,0,0
+Microsoft.ExtendedLocation/customLocations,0,0,0
 Microsoft.Falcon/namespaces,1,1,0
 Microsoft.Features/featureproviders,0,0,0
 Microsoft.Features/features,0,0,0
@@ -354,7 +355,7 @@ Microsoft.KeyVault/deletedvaults,0,0,0
 Microsoft.KeyVault/hsmpools,0,0,0
 Microsoft.KeyVault/managedhsms,0,0,0
 Microsoft.KeyVault/vaults,1,1,0
-Microsoft.Kubernetes/connectedclusters,1,1,0
+Microsoft.Kubernetes/connectedclusters,0,0,0
 Microsoft.Kubernetes/registeredsubscriptions,0,0,0
 Microsoft.KubernetesConfiguration/sourcecontrolconfigurations,0,0,0
 Microsoft.Kusto/clusters,1,1,0
@@ -437,7 +438,7 @@ Microsoft.Network/dnszones,1,1,0
 Microsoft.Network/expressroutecircuits,0,0,0
 Microsoft.Network/expressroutegateways,0,0,0
 Microsoft.Network/expressrouteserviceproviders,0,0,0
-Microsoft.Network/firewallpolicies,1,1,0
+Microsoft.Network/firewallpolicies,0,0,0
 Microsoft.Network/frontdoors,0,0,0
 Microsoft.Network/ipallocations,1,1,0
 Microsoft.Network/ipgroups,1,1,0
@@ -513,7 +514,7 @@ Microsoft.Portal/usersettings,0,0,0
 Microsoft.PowerBI/workspacecollections,1,1,0
 Microsoft.PowerBIDedicated/capacities,1,1,0
 Microsoft.ProjectBabylon/accounts,0,0,0
-Microsoft.Purview/accounts,0,0,0
+Microsoft.Purview/accounts,1,1,0
 Microsoft.ProviderHub/availableaccounts,0,0,0
 Microsoft.ProviderHub/providerregistrations,0,0,0
 Microsoft.ProviderHub/rollouts,0,0,0
@@ -681,6 +682,7 @@ Microsoft.VSOnline/registeredsubscriptions,0,0,0
 Microsoft.Web/availablestacks,0,0,0
 Microsoft.Web/billingmeters,0,0,0
 Microsoft.Web/certificates,0,1,0
+Microsoft.Web/certificates(managed),0,0,0
 Microsoft.Web/connectiongateways,1,1,0
 Microsoft.Web/connections,1,1,0
 Microsoft.Web/customapis,1,1,0

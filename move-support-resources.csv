@@ -135,6 +135,7 @@ Microsoft.CognitiveServices/accounts,1,1
 Microsoft.CognitiveServices/CognitiveSearch,1,1
 Microsoft.Commerce/ratecard,0,0
 Microsoft.Commerce/usageaggregates,0,0
+Microsoft.Communication/communicationservices,1,1
 Microsoft.Compute/availabilitysets,1,1
 Microsoft.Compute/diskaccesses,0,0
 Microsoft.Compute/diskencryptionsets,0,0
@@ -156,6 +157,7 @@ Microsoft.Compute/sshpublickeys,0,0
 Microsoft.Compute/virtualmachines,1,1
 Microsoft.Compute/virtualmachines/extensions,1,1
 Microsoft.Compute/virtualmachinescalesets,1,1
+Microsoft.Confluent/organizations,0,0
 Microsoft.Consumption/aggregatedcost,0,0
 Microsoft.Consumption/balances,0,0
 Microsoft.Consumption/budgets,0,0
@@ -232,13 +234,12 @@ Microsoft.DataMigration/slots,0,0
 Microsoft.DataProtection/backupvaults,0,0
 Microsoft.DataShare/accounts,1,1
 Microsoft.DBforMariaDB/servers,1,1
-Microsoft.DBforMySQL/flexibleServers,0,0
+Microsoft.DBforMySQL/flexibleServers,1,1
 Microsoft.DBforMySQL/servers,1,1
-Microsoft.DBforPostgreSQL/flexibleServers,0,0
+Microsoft.DBforPostgreSQL/flexibleServers,1,1
 Microsoft.DBforPostgreSQL/servergroups,0,0
 Microsoft.DBforPostgreSQL/servers,1,1
 Microsoft.DBforPostgreSQL/serversv2,1,1
-Microsoft.DBforPostgreSQL/singleservers,1,1
 Microsoft.DeploymentManager/artifactsources,1,1
 Microsoft.DeploymentManager/rollouts,1,1
 Microsoft.DeploymentManager/servicetopologies,1,1
@@ -416,7 +417,6 @@ Microsoft.Migrate/assessmentprojects,0,0
 Microsoft.Migrate/migrateprojects,0,0
 Microsoft.Migrate/movecollections,0,0
 Microsoft.Migrate/projects,0,0
-Microsoft.MixedReality/holographicsbroadcastaccounts,0,0
 Microsoft.MixedReality/objectunderstandingaccounts,0,0
 Microsoft.MixedReality/remoterenderingaccounts,1,1
 Microsoft.MixedReality/spatialanchorsaccounts,1,1
@@ -441,7 +441,7 @@ Microsoft.Network/expressrouteserviceproviders,0,0
 Microsoft.Network/firewallpolicies,0,0
 Microsoft.Network/frontdoors,0,0
 Microsoft.Network/ipallocations,1,1
-Microsoft.Network/ipgroups,1,1
+Microsoft.Network/ipgroups,0,0
 Microsoft.Network/loadbalancers,1,1
 Microsoft.Network/localnetworkgateways,1,1
 Microsoft.Network/natgateways,0,0
@@ -459,7 +459,7 @@ Microsoft.Network/privatednszones,1,1
 Microsoft.Network/privatednszones/virtualnetworklinks,1,1
 Microsoft.Network/privatednszonesinternal,0,0
 Microsoft.Network/privateendpointredirectmaps,0,0
-Microsoft.Network/privateendpoints,0,0
+Microsoft.Network/privateendpoints,1,1
 Microsoft.Network/privatelinkservices,0,0
 Microsoft.Network/publicipaddresses,1,1
 Microsoft.Network/publicipprefixes,1,1
@@ -547,6 +547,7 @@ Microsoft.Resources/templatespecs,0,0
 Microsoft.Resources/templatespecs/versions,0,0
 Microsoft.Resources/tenants,0,0
 Microsoft.SaaS/applications,1,0
+Microsoft.SaaS/resources,1,1
 Microsoft.SaaS/saasresources,0,0
 Microsoft.Search/resourcehealthmetadata,0,0
 Microsoft.Search/searchservices,1,1
@@ -638,7 +639,7 @@ Microsoft.Sql/servers/databases/backuplongtermretentionpolicies,1,1
 Microsoft.Sql/servers/elasticpools,1,1
 Microsoft.Sql/servers/jobaccounts,1,1
 Microsoft.Sql/servers/jobagents,1,1
-Microsoft.Sql/virtualclusters,1,1
+Microsoft.Sql/virtualclusters,0,0
 Microsoft.SqlVirtualMachine/sqlvirtualmachinegroups,1,1
 Microsoft.SqlVirtualMachine/sqlvirtualmachines,1,1
 Microsoft.Storage/storageaccounts,1,1

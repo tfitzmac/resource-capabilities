@@ -1458,6 +1458,9 @@ Microsoft.OpenLogisticsPlatform,workspaces/applications,FALSE,FALSE
 Microsoft.OpenLogisticsPlatform,workspaces/eventGridFilters,FALSE,FALSE
 Microsoft.OpenLogisticsPlatform,workspaces/shares,FALSE,FALSE
 Microsoft.OpenLogisticsPlatform,workspaces/shareSubscriptions,FALSE,FALSE
+Microsoft.OperationalInsights,querypacks,TRUE,FALSE
+Microsoft.OperationalInsights,workspaces,TRUE,TRUE
+Microsoft.OperationsManagement,solutions,TRUE,FALSE
 Microsoft.Orbital,contactProfiles,TRUE,TRUE
 Microsoft.Orbital,edgeSites,TRUE,TRUE
 Microsoft.Orbital,globalCommunicationsSites,FALSE,FALSE

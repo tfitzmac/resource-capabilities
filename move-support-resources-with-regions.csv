@@ -30,6 +30,7 @@ Microsoft.AlertsManagement/smartgroups,0,0,0
 Microsoft.AnalysisServices/servers,1,1,0
 Microsoft.ApiManagement/reportfeedback,0,0,0
 Microsoft.ApiManagement/service,1,1,1
+Microsoft.App/managedenvironments,1,1,0
 Microsoft.AppConfiguration/configurationstores,1,1,0
 Microsoft.AppConfiguration/configurationstores/eventgridfilters,0,0,0
 Microsoft.AppPlatform/spring,1,1,0
@@ -231,6 +232,7 @@ Microsoft.DataLakeStore/accounts,1,1,0
 Microsoft.DataMigration/services,0,0,0
 Microsoft.DataMigration/services/projects,0,0,0
 Microsoft.DataMigration/slots,0,0,0
+Microsoft.DataMigration/sqlmigrationservices,0,0,0
 Microsoft.DataProtection/backupvaults,0,0,0
 Microsoft.DataShare/accounts,1,1,0
 Microsoft.DBforMariaDB/servers,1,1,0
@@ -362,6 +364,7 @@ Microsoft.KubernetesConfiguration/sourcecontrolconfigurations,0,0,0
 Microsoft.Kusto/clusters,1,1,0
 Microsoft.LabServices/labaccounts,0,0,0
 Microsoft.LabServices/users,0,0,0
+Microsoft.LoadTestService/loadtests,0,0,0
 Microsoft.LocationBasedServices/accounts,0,0,0
 Microsoft.LocationServices/accounts,0,0,0
 Microsoft.Logic/hostingenvironments,0,0,0
@@ -459,7 +462,7 @@ Microsoft.Network/privatednszones,1,1,0
 Microsoft.Network/privatednszones/virtualnetworklinks,1,1,0
 Microsoft.Network/privatednszonesinternal,0,0,0
 Microsoft.Network/privateendpointredirectmaps,0,0,0
-Microsoft.Network/privateendpoints,1,1,1
+Microsoft.Network/privateendpoints,1,1,0
 Microsoft.Network/privatelinkservices,0,0,0
 Microsoft.Network/publicipaddresses,1,1,1
 Microsoft.Network/publicipprefixes,1,1,0
@@ -485,6 +488,7 @@ Microsoft.NotificationHubs/namespaces/notificationhubs,1,1,0
 Microsoft.ObjectStore/osnamespaces,1,1,0
 Microsoft.OffAzure/hypervsites,0,0,0
 Microsoft.OffAzure/importsites,0,0,0
+Microsoft.OffAzure/mastersites,0,0,0
 Microsoft.OffAzure/serversites,0,0,0
 Microsoft.OffAzure/vmwaresites,0,0,0
 Microsoft.OperationalInsights/clusters,0,0,0

@@ -19,7 +19,7 @@ Microsoft.Advisor/generaterecommendations,0,0
 Microsoft.Advisor/metadata,0,0
 Microsoft.Advisor/recommendations,0,0
 Microsoft.Advisor/suppressions,0,0
-Microsoft.AlertsManagement/actionrules,1,1
+Microsoft.AlertsManagement/alertprocessingrules,0,1
 Microsoft.AlertsManagement/alerts,0,0
 Microsoft.AlertsManagement/alertslist,0,0
 Microsoft.AlertsManagement/alertsmetadata,0,0
@@ -59,6 +59,11 @@ Microsoft.Automation/automationaccounts/runbooks,1,1
 Microsoft.AVS/privateclouds,1,1
 Microsoft.AzureActiveDirectory/b2cdirectories,1,1
 Microsoft.AzureActiveDirectory/b2ctenants,0,0
+Microsoft.AzureArcData/datacontrollers,0,0
+Microsoft.AzureArcData/postgresinstances,0,0
+Microsoft.AzureArcData/sqlmanagedinstances,0,0
+Microsoft.AzureArcData/sqlserverinstances,0,0
+Microsoft.AzureArcData/sqlserverlicenses,0,0
 Microsoft.AzureData/datacontrollers,0,0
 Microsoft.AzureData/hybriddatamanagers,0,0
 Microsoft.AzureData/postgresinstances,0,0
@@ -228,6 +233,7 @@ Microsoft.Databricks/workspaces,0,0
 Microsoft.DataCatalog/catalogs,1,1
 Microsoft.DataCatalog/datacatalogs,0,0
 Microsoft.DataConnect/connectionmanagers,0,0
+Microsoft.DataDog/monitors,0,0
 Microsoft.DataExchange/packages,0,0
 Microsoft.DataExchange/plans,0,0
 Microsoft.DataFactory/datafactories,1,1
@@ -256,6 +262,7 @@ Microsoft.DeploymentManager/servicetopologies/services/serviceunits,1,1
 Microsoft.DeploymentManager/steps,1,1
 Microsoft.DesktopVirtualization/applicationgroups,1,1
 Microsoft.DesktopVirtualization/hostpools,1,1
+Microsoft.DesktopVirtualization/scalingplans,1,1
 Microsoft.DesktopVirtualization/workspaces,1,1
 Microsoft.Devices/elasticpools,0,0
 Microsoft.Devices/elasticpools/iothubtenants,0,0
@@ -267,12 +274,14 @@ Microsoft.DevSpaces/controllers,1,1
 Microsoft.DevSpaces/AKScluster,0,0
 Microsoft.DevTestLab/labcenters,0,0
 Microsoft.DevTestLab/labs,1,0
-Microsoft.DevTestLab/labs/environments,1,1
-Microsoft.DevTestLab/labs/servicerunners,1,1
+Microsoft.DevTestLab/labs/environments,1,0
+Microsoft.DevTestLab/labs/servicerunners,1,0
 Microsoft.DevTestLab/labs/virtualmachines,1,0
 Microsoft.DevTestLab/schedules,1,1
 Microsoft.DigitalTwins/digitaltwinsinstances,0,0
 Microsoft.DocumentDB/databaseaccounts,1,1
+Microsoft.DocumentDB/mongoClusters,0,0
+Microsoft.DocumentDB/cassandraClusters,0,0
 Microsoft.DomainRegistration/domains,1,1
 Microsoft.DomainRegistration/generatessorequest,0,0
 Microsoft.DomainRegistration/topleveldomains,0,0
@@ -310,8 +319,10 @@ Microsoft.HanaOnAzure/sapmonitors,0,0
 Microsoft.HardwareSecurityModules/dedicatedhsms,0,0
 Microsoft.HDInsight/clusters,1,1
 Microsoft.HealthcareApis/services,1,1
+Microsoft.HybridCompute/licenses,1,1
 Microsoft.HybridCompute/machines,1,1
 Microsoft.HybridCompute/machines/extensions,1,1
+Microsoft.HybridCompute/privatelinkscopes,1,1
 Microsoft.HybridData/datamanagers,1,1
 Microsoft.HybridNetwork/devices,0,0
 Microsoft.HybridNetwork/vnfs,0,0
@@ -319,7 +330,7 @@ Microsoft.Hydra/components,0,0
 Microsoft.Hydra/networkscopes,0,0
 Microsoft.ImportExport/jobs,1,1
 Microsoft.Insights/accounts,1,1
-Microsoft.Insights/actiongroups,1,1
+Microsoft.Insights/actiongroups,0,0
 Microsoft.Insights/activitylogalerts,0,0
 Microsoft.Insights/alertrules,1,1
 Microsoft.Insights/autoscalesettings,1,1
@@ -370,7 +381,7 @@ Microsoft.KubernetesConfiguration/sourcecontrolconfigurations,0,0
 Microsoft.Kusto/clusters,1,1
 Microsoft.LabServices/labaccounts,0,0
 Microsoft.LabServices/users,0,0
-Microsoft.LoadTestService/loadtests,0,0
+Microsoft.LoadTestService/loadtests,1,1
 Microsoft.LocationBasedServices/accounts,0,0
 Microsoft.LocationServices/accounts,0,0
 Microsoft.Logic/hostingenvironments,0,0
@@ -389,6 +400,9 @@ Microsoft.MachineLearningModelManagement/accounts,0,0
 Microsoft.MachineLearningServices/workspaces,0,0
 Microsoft.Maintenance/configurationassignments,0,0
 Microsoft.Maintenance/maintenanceconfigurations,1,1
+Microsoft.Maintenance/updates,0,0
+Microsoft.Maintenance/configurationassignments,0,0
+Microsoft.Maintenance/maintenanceconfigurations,0,0
 Microsoft.Maintenance/updates,0,0
 Microsoft.ManagedIdentity/identities,0,0
 Microsoft.ManagedIdentity/userassignedidentities,0,0
@@ -426,9 +440,7 @@ Microsoft.Migrate/assessmentprojects,0,0
 Microsoft.Migrate/migrateprojects,0,0
 Microsoft.Migrate/movecollections,0,0
 Microsoft.Migrate/projects,0,0
-Microsoft.MixedReality/objectunderstandingaccounts,0,0
 Microsoft.MixedReality/remoterenderingaccounts,1,1
-Microsoft.MixedReality/spatialanchorsaccounts,1,1
 Microsoft.MobileNetwork/mobileNetworks,0,0
 Microsoft.MobileNetwork/mobileNetworks/dataNetworks,0,0
 Microsoft.MobileNetwork/mobileNetworks/simPolicies,0,0
@@ -450,7 +462,7 @@ Microsoft.Network/applicationgateways,0,0
 Microsoft.Network/applicationgatewaywebapplicationfirewallpolicies,0,0
 Microsoft.Network/applicationsecuritygroups,1,1
 Microsoft.Network/azurefirewalls,0,0
-Microsoft.Network/bastionhosts,0,0
+Microsoft.Network/bastionhosts,1,0
 Microsoft.Network/bgpservicecommunities,0,0
 Microsoft.Network/connections,1,1
 Microsoft.Network/ddoscustompolicies,1,1
@@ -493,7 +505,7 @@ Microsoft.Network/trafficmanagerprofiles,1,1
 Microsoft.Network/trafficmanagerprofiles/heatmaps,0,0
 Microsoft.Network/trafficmanagerusermetricskeys,0,0
 Microsoft.Network/virtualhubs,0,0
-Microsoft.Network/virtualnetworkgateways,1,1
+Microsoft.Network/virtualnetworkgateways,0,0
 Microsoft.Network/virtualnetworks,1,1
 Microsoft.Network/virtualnetworktaps,0,0
 Microsoft.Network/virtualrouters,1,1
@@ -514,6 +526,7 @@ Microsoft.OperationalInsights/deletedworkspaces,0,0
 Microsoft.OperationalInsights/linktargets,0,0
 Microsoft.OperationalInsights/storageinsightconfigs,0,0
 Microsoft.OperationalInsights/workspaces,1,1
+Microsoft.OperationalInsights/querypacks,0,0
 Microsoft.OperationsManagement/managementassociations,0,0
 Microsoft.OperationsManagement/managementconfigurations,1,1
 Microsoft.OperationsManagement/solutions,1,1
@@ -521,11 +534,11 @@ Microsoft.OperationsManagement/views,1,1
 Microsoft.Peering/legacypeerings,0,0
 Microsoft.Peering/peerasns,0,0
 Microsoft.Peering/peeringlocations,0,0
-Microsoft.Peering/peerings,0,0
+Microsoft.Peering/peerings,1,1
 Microsoft.Peering/peeringservicecountries,0,0
 Microsoft.Peering/peeringservicelocations,0,0
 Microsoft.Peering/peeringserviceproviders,0,0
-Microsoft.Peering/peeringservices,0,0
+Microsoft.Peering/peeringservices,1,1
 Microsoft.PolicyInsights/policyevents,0,0
 Microsoft.PolicyInsights/policystates,0,0
 Microsoft.PolicyInsights/policytrackedresources,0,0
@@ -535,6 +548,13 @@ Microsoft.Portal/dashboards,1,1
 Microsoft.Portal/usersettings,0,0
 Microsoft.PowerBI/workspacecollections,1,1
 Microsoft.PowerBIDedicated/capacities,1,1
+Microsoft.ProgrammableConnectivity/gateways,0,0
+Microsoft.ProgrammableConnectivity/openApiGatewayOfferings,0,0
+Microsoft.ProgrammableConnectivity/openApiGateways,0,0
+Microsoft.ProgrammableConnectivity/operatorApiConnections,0,0
+Microsoft.ProgrammableConnectivity/operatorApiPlans,0,0
+Microsoft.ProgrammableConnectivity/OperatorConnections,0,0
+Microsoft.ProgrammableConnectivity/OperatorOfferings,0,0
 Microsoft.ProjectBabylon/accounts,0,0
 Microsoft.Purview/accounts,1,1
 Microsoft.ProviderHub/availableaccounts,0,0

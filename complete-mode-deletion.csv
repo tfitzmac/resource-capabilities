@@ -169,13 +169,6 @@ Microsoft.AzureCIS,dstsServiceAccounts,TRUE
 Microsoft.AzureCIS,dstsServiceClientIdentities,TRUE
 Microsoft.AzureData,sqlServerRegistrations,TRUE
 Microsoft.AzureData,sqlServerRegistrations / sqlServers,FALSE
-Microsoft.AzurePercept,accounts,TRUE
-Microsoft.AzurePercept,accounts / devices,FALSE
-Microsoft.AzurePercept,accounts / devices / sensors,FALSE
-Microsoft.AzurePercept,accounts / sensors,FALSE
-Microsoft.AzurePercept,accounts / solutioninstances,FALSE
-Microsoft.AzurePercept,accounts / solutions,FALSE
-Microsoft.AzurePercept,accounts / targets,FALSE
 Microsoft.AzureScan,scanningAccounts,TRUE
 Microsoft.AzureSphere,catalogs,TRUE
 Microsoft.AzureSphere,catalogs / certificates,FALSE
@@ -477,10 +470,6 @@ Microsoft.ClassicStorage,storageAccounts / services / metrics,FALSE
 Microsoft.ClassicStorage,storageAccounts / tableServices,FALSE
 Microsoft.ClassicStorage,storageAccounts / vmImages,FALSE
 Microsoft.ClassicStorage,vmImages,FALSE
-Microsoft.CloudTest,accounts,TRUE
-Microsoft.CloudTest,hostedpools,TRUE
-Microsoft.CloudTest,images,TRUE
-Microsoft.CloudTest,pools,TRUE
 Microsoft.CodeSigning,codeSigningAccounts,TRUE
 Microsoft.CodeSigning,codeSigningAccounts / certificateProfiles,FALSE
 Microsoft.Codespaces,plans,TRUE
@@ -1312,10 +1301,7 @@ Microsoft.Migrate,migrateprojects,TRUE
 Microsoft.Migrate,modernizeProjects,TRUE
 Microsoft.Migrate,moveCollections,TRUE
 Microsoft.Migrate,projects,TRUE
-Microsoft.MixedReality,objectAnchorsAccounts,TRUE
-Microsoft.MixedReality,objectUnderstandingAccounts,TRUE
 Microsoft.MixedReality,remoteRenderingAccounts,TRUE
-Microsoft.MixedReality,spatialAnchorsAccounts,TRUE
 Microsoft.MobileNetwork,mobileNetworks,TRUE
 Microsoft.MobileNetwork,mobileNetworks / dataNetworks,TRUE
 Microsoft.MobileNetwork,mobileNetworks / services,TRUE
@@ -1517,15 +1503,6 @@ Microsoft.OperationalInsights,workspaces / query,FALSE
 Microsoft.OperationalInsights,workspaces / scopedPrivateLinkProxies,FALSE
 Microsoft.OperationalInsights,workspaces / storageInsightConfigs,FALSE
 Microsoft.OperationalInsights,workspaces / tables,FALSE
-Microsoft.Orbital,contactProfiles,TRUE
-Microsoft.Orbital,edgeSites,TRUE
-Microsoft.Orbital,globalCommunicationsSites,FALSE
-Microsoft.Orbital,groundStations,TRUE
-Microsoft.Orbital,l2Connections,TRUE
-Microsoft.Orbital,l3Connections,TRUE
-Microsoft.Orbital,orbitalGateways,TRUE
-Microsoft.Orbital,spacecrafts,TRUE
-Microsoft.Orbital,spacecrafts / contacts,FALSE
 Microsoft.Peering,cdnPeeringPrefixes,FALSE
 Microsoft.Peering,legacyPeerings,FALSE
 Microsoft.Peering,lookingGlass,FALSE
